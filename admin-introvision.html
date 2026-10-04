@@ -1,168 +1,40 @@
 <!doctype html>
-<html lang="id">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Admin Pelanggan — Introvision</title>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin Introvision</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#f3f6fb;color:#182233;font-family:Arial,sans-serif}
-.wrap{max-width:1050px;margin:auto;padding:20px}.card{background:#fff;border-radius:18px;padding:20px;margin-bottom:16px;box-shadow:0 8px 28px rgba(20,45,80,.09)}
-h1{margin:0 0 5px;font-size:25px}.muted{color:#697586;font-size:13px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-@media(max-width:700px){.grid{grid-template-columns:1fr}.wrap{padding:12px}}
-label{font-size:13px;font-weight:800;display:block;margin-bottom:6px}input,select{width:100%;padding:12px;border:1px solid #d9e0ea;border-radius:10px;font-size:15px}
-button{border:0;border-radius:10px;padding:11px 14px;font-weight:800;cursor:pointer}.primary{background:#1769ff;color:#fff}.secondary{background:#edf3ff;color:#1769ff}.danger{background:#ffe9e9;color:#b42318}.dark{background:#182233;color:#fff}
-.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.status{padding:10px;border-radius:10px;background:#f5f7fa;font-size:13px;margin-top:12px}
-.search{margin:12px 0}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:760px}th,td{text-align:left;padding:11px;border-bottom:1px solid #e8edf3;font-size:13px}th{background:#f7f9fc}
-.badge{display:inline-block;padding:5px 8px;border-radius:999px;background:#eef6ee;color:#23733a;font-weight:800}.empty{text-align:center;color:#697586;padding:25px}
-.small{font-size:12px;color:#697586;line-height:1.5}
-</style>
-</head>
-<body>
-<div class="wrap">
-<div class="card">
-<h1>Admin Pelanggan Introvision</h1>
-<div class="muted">Tambah, edit, hapus, dan sinkronkan data pelanggan ke GitHub.</div>
-</div>
-
-<div class="card">
-<h3>1. Hubungkan ke GitHub</h3>
-<div class="grid">
-<div><label>GitHub Username / Owner</label><input id="owner" value="Introvision-hub"></div>
-<div><label>Nama Repository</label><input id="repo" value="pembayaran-introvision"></div>
-<div><label>Branch</label><input id="branch" value="main"></div>
-<div><label>GitHub Personal Access Token</label><input id="token" type="password" placeholder="ghp_... atau github_pat_..."></div>
-</div>
-<div class="small" style="margin-top:10px">Token tidak ditulis ke file website. Masukkan hanya di perangkat Anda. Token harus punya akses <b>Contents: Read and write</b> ke repository ini.</div>
-<div class="actions"><button class="primary" onclick="loadFromGitHub()">Muat Data dari GitHub</button><button class="secondary" onclick="downloadJSON()">Download pelanggan.json</button></div>
-<div id="sync" class="status">Belum terhubung.</div>
-</div>
-
-<div class="card">
-<h3 id="formTitle">2. Tambah Pelanggan</h3>
-<div class="grid">
-<div><label>ID Pelanggan *</label><input id="id" placeholder="10399999"></div>
-<div><label>Nama *</label><input id="nama" placeholder="Nama pelanggan"></div>
-<div><label>Paket</label><input id="paket" placeholder="30 Mbps"></div>
-<div><label>Total Tagihan</label><input id="total" type="number" min="0" placeholder="160000"></div>
-<div><label>Jatuh Tempo</label><input id="jatuh_tempo" placeholder="10/11/2026"></div>
-<div><label>Status</label><select id="status"><option>AKTIF</option><option>SUDAH BAYAR</option><option>TERTUNGGAK</option><option>SUSPEND</option></select></div>
-</div>
-<div class="actions">
-<button class="primary" onclick="saveCustomer()">Simpan Pelanggan</button>
-<button class="secondary" onclick="clearForm()">Batal / Bersihkan</button>
-</div>
-<div id="formMsg" class="status" style="display:none"></div>
-</div>
-
-<div class="card">
-<h3>3. Daftar Pelanggan (<span id="count">0</span>)</h3>
-<input class="search" id="search" placeholder="Cari ID atau nama..." oninput="render()">
-<div class="table-wrap">
-<table><thead><tr><th>ID</th><th>Nama</th><th>Paket</th><th>Tagihan</th><th>Jatuh Tempo</th><th>Status</th><th>Aksi</th></tr></thead>
-<tbody id="tbody"></tbody></table>
-</div>
-</div>
-</div>
-
+*{box-sizing:border-box}body{margin:0;background:#f3f6fb;color:#182233;font-family:Arial,sans-serif}.wrap{max-width:1180px;margin:auto;padding:16px}.card{background:#fff;border-radius:18px;padding:18px;margin-bottom:14px;box-shadow:0 8px 28px rgba(20,45,80,.09)}h1{margin:0 0 5px;font-size:25px}h2,h3{margin-top:0}.muted,.small{color:#697586;font-size:13px;line-height:1.5}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}@media(max-width:760px){.grid,.grid3{grid-template-columns:1fr}.wrap{padding:10px}}label{font-size:13px;font-weight:800;display:block;margin-bottom:6px}input,select,textarea{width:100%;padding:12px;border:1px solid #d9e0ea;border-radius:10px;font-size:15px;background:#fff}textarea{min-height:75px;resize:vertical}button{border:0;border-radius:10px;padding:11px 14px;font-weight:800;cursor:pointer}.primary{background:#1769ff;color:#fff}.secondary{background:#edf3ff;color:#1769ff}.danger{background:#ffe9e9;color:#b42318}.dark{background:#182233;color:#fff}.green{background:#e9f8ee;color:#19713a}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.status{padding:10px;border-radius:10px;background:#f5f7fa;font-size:13px;margin-top:12px}.search{margin:12px 0}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;min-width:980px}th,td{text-align:left;padding:9px;border-bottom:1px solid #e8edf3;font-size:12px;vertical-align:top}th{background:#f7f9fc}.badge{display:inline-block;padding:5px 8px;border-radius:999px;font-weight:800;background:#eef6ee;color:#23733a}.badge.bad{background:#fff0f0;color:#b42318}.empty{text-align:center;color:#697586;padding:25px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}@media(max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}}.stat{padding:14px;border-radius:14px;background:#f7f9fc}.stat b{display:block;font-size:20px;margin-top:4px}.history{padding:10px;border:1px solid #e4e9f0;border-radius:12px;margin-top:8px}.hidden{display:none}.receipt{max-width:520px;margin:0 auto}@media print{body{background:#fff}body>*{display:none!important}#printArea{display:block!important}#printArea .print-only{display:block}}
+</style></head><body><div class="wrap">
+<div class="card"><h1>Admin Pelanggan Introvision</h1><div class="muted">Kelola pelanggan, tagihan, pembayaran, riwayat transaksi, cetak bukti pembayaran, dan laporan bulanan.</div></div>
+<div class="card"><h3>1. Hubungkan ke GitHub</h3><div class="grid"><div><label>GitHub Username / Owner</label><input id="owner" value="Introvision-hub"></div><div><label>Nama Repository</label><input id="repo" value="pembayaran-introvision"></div><div><label>Branch</label><input id="branch" value="main"></div><div><label>GitHub Personal Access Token</label><input id="token" type="password" placeholder="github_pat_..."></div></div><div class="small" style="margin-top:10px">Token hanya dipakai di perangkat ini dan tidak ditulis ke database. Butuh permission <b>Contents: Read and write</b>.</div><div class="actions"><button class="primary" onclick="loadFromGitHub()">Muat Data dari GitHub</button><button class="secondary" onclick="downloadJSON()">Download pelanggan.json</button><button class="dark" onclick="saveToGitHub()">Simpan ke GitHub</button></div><div id="sync" class="status">Belum terhubung.</div></div>
+<div class="card"><h3 id="formTitle">2. Tambah / Edit Pelanggan</h3><div class="grid3"><div><label>ID Pelanggan *</label><input id="id" placeholder="10399999"></div><div><label>Nama *</label><input id="nama" placeholder="Nama pelanggan"></div><div><label>Paket</label><input id="paket" placeholder="30 Mbps"></div><div><label>Total Tagihan Bulanan</label><input id="total" type="number" min="0" placeholder="160000"></div><div><label>Jatuh Tempo</label><input id="jatuh_tempo" placeholder="10/11/2026"></div><div><label>Status Tagihan</label><select id="status_tagihan"><option>BELUM BAYAR</option><option>LUNAS</option></select></div></div><div class="actions"><button class="primary" onclick="saveCustomer()">Simpan Pelanggan</button><button class="secondary" onclick="clearForm()">Batal / Bersihkan</button></div></div>
+<div class="card"><h3>3. Catat Pembayaran</h3><div class="grid3"><div><label>ID Pelanggan</label><input id="payId" placeholder="10399999" oninput="showPayCustomer()"></div><div><label>Tanggal Pembayaran</label><input id="payDate" type="date"></div><div><label>Nominal</label><input id="payAmount" type="number" min="1" placeholder="160000"></div><div><label>Metode</label><select id="payMethod"><option>BCA</option><option>OVO</option><option>DANA</option><option>TUNAI</option><option>LAINNYA</option></select></div><div><label>No. Referensi (opsional)</label><input id="payRef" placeholder="TRX-001"></div><div><label>Catatan</label><input id="payNote" placeholder="Pembayaran bulan Oktober"></div></div><div id="payCustomer" class="status">Masukkan ID pelanggan.</div><div class="actions"><button class="green" onclick="addPayment()">Catat Pembayaran & Tandai LUNAS</button></div></div>
+<div class="card"><h3>4. Daftar Pelanggan (<span id="count">0</span>)</h3><input class="search" id="search" placeholder="Cari ID atau nama..." oninput="render()"><div class="table-wrap"><table><thead><tr><th>ID</th><th>Nama</th><th>Paket</th><th>Tagihan</th><th>Jatuh Tempo</th><th>Status Tagihan</th><th>Riwayat</th><th>Aksi</th></tr></thead><tbody id="tbody"></tbody></table></div></div>
+<div class="card"><h3>5. Laporan Tagihan Bulanan</h3><div class="grid"><div><label>Bulan Laporan</label><input id="reportMonth" type="month" onchange="renderReport()"></div><div><label>Filter</label><select id="reportFilter" onchange="renderReport()"><option value="ALL">Semua</option><option value="LUNAS">LUNAS</option><option value="BELUM BAYAR">BELUM BAYAR</option></select></div></div><div class="stats" style="margin-top:14px"><div class="stat">Total Tagihan<b id="rBill">Rp0</b></div><div class="stat">Sudah Bayar<b id="rPaid">Rp0</b></div><div class="stat">Sisa Tagihan<b id="rDue">Rp0</b></div><div class="stat">Pelanggan Lunas<b id="rCount">0</b></div></div><div class="actions"><button class="dark" onclick="printReport()">Cetak Laporan</button><button class="secondary" onclick="downloadReportCSV()">Download CSV</button></div><div class="table-wrap"><table style="min-width:800px"><thead><tr><th>ID</th><th>Nama</th><th>Tagihan</th><th>Dibayar</th><th>Sisa</th><th>Status</th></tr></thead><tbody id="reportBody"></tbody></table></div></div>
+</div><div id="printArea" class="hidden"></div>
 <script>
-let customers = [];
-let editingId = null;
-let fileSha = null;
-
-const $ = id => document.getElementById(id);
-const esc = s => String(s ?? '').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
-const rupiah = n => new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(Number(n||0));
-
+let customers=[],editingId=null,fileSha=null;
+const $=id=>document.getElementById(id);const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+const rupiah=n=>new Intl.NumberFormat('id-ID',{style:'currency',currency:'IDR',maximumFractionDigits:0}).format(Number(n||0));
+const todayISO=()=>new Date().toISOString().slice(0,10);
+function monthNow(){return new Date().toISOString().slice(0,7)}
+$('payDate').value=todayISO();$('reportMonth').value=monthNow();
+function normalize(c){c.riwayat_pembayaran=Array.isArray(c.riwayat_pembayaran)?c.riwayat_pembayaran:[];if(!c.status_tagihan)c.status_tagihan=(String(c.status||'').toUpperCase()==='SUDAH BAYAR'||Number(c.total||0)<=0)?'LUNAS':'BELUM BAYAR';return c}
 function setSync(msg){$('sync').textContent=msg}
-function clearForm(){
-  editingId=null;
-  $('formTitle').textContent='2. Tambah Pelanggan';
-  ['id','nama','paket','total','jatuh_tempo'].forEach(x=>$(x).value='');
-  $('status').value='AKTIF';
-  $('formMsg').style.display='none';
-}
-function saveCustomer(){
-  const id=$('id').value.trim();
-  const nama=$('nama').value.trim();
-  if(!id || !nama){alert('ID dan Nama wajib diisi.');return;}
-  const obj={id,nama,paket:$('paket').value.trim(),total:String($('total').value||0),jatuh_tempo:$('jatuh_tempo').value.trim(),status:$('status').value};
-  if(editingId){
-    const i=customers.findIndex(x=>x.id===editingId);
-    if(i<0)return;
-    if(id!==editingId && customers.some(x=>x.id===id)){alert('ID pelanggan sudah digunakan.');return;}
-    customers[i]=obj;
-  }else{
-    if(customers.some(x=>x.id===id)){alert('ID pelanggan sudah digunakan.');return;}
-    customers.push(obj);
-  }
-  clearForm(); render(); setSync('Perubahan ada di halaman ini. Klik "Simpan ke GitHub" pada bagian sinkronisasi setelah selesai.');
-}
-function editCustomer(id){
-  const c=customers.find(x=>x.id===id); if(!c)return;
-  editingId=id;$('formTitle').textContent='2. Edit Pelanggan';
-  $('id').value=c.id;$('nama').value=c.nama;$('paket').value=c.paket||'';
-  $('total').value=c.total||'';$('jatuh_tempo').value=c.jatuh_tempo||'';$('status').value=c.status||'AKTIF';
-  scrollTo({top:0,behavior:'smooth'});
-}
-function deleteCustomer(id){
-  const c=customers.find(x=>x.id===id);
-  if(!c || !confirm('Hapus pelanggan '+c.nama+' ('+id+')?'))return;
-  customers=customers.filter(x=>x.id!==id);render();setSync('Pelanggan dihapus dari daftar lokal. Simpan ke GitHub jika sudah yakin.');
-}
-function render(){
-  const q=$('search').value.toLowerCase().trim();
-  const rows=customers.filter(c=>(c.id+' '+c.nama).toLowerCase().includes(q));
-  $('count').textContent=customers.length;
-  $('tbody').innerHTML=rows.length?rows.map(c=>`<tr>
-<td>${esc(c.id)}</td><td>${esc(c.nama)}</td><td>${esc(c.paket||'-')}</td>
-<td>${rupiah(c.total)}</td><td>${esc(c.jatuh_tempo||'-')}</td>
-<td><span class="badge">${esc(c.status||'-')}</span></td>
-<td><button class="secondary" onclick="editCustomer('${esc(c.id)}')">Edit</button> <button class="danger" onclick="deleteCustomer('${esc(c.id)}')">Hapus</button></td>
-</tr>`).join(''):'<tr><td colspan="7" class="empty">Tidak ada pelanggan.</td></tr>';
-}
-function getConfig(){
-  const token=$('token').value.trim(),owner=$('owner').value.trim(),repo=$('repo').value.trim(),branch=$('branch').value.trim();
-  if(!token||!owner||!repo||!branch){alert('Lengkapi Owner, Repository, Branch, dan Token.');return null}
-  return {token,owner,repo,branch};
-}
-async function loadFromGitHub(){
-  const cfg=getConfig();if(!cfg)return;
-  setSync('Mengambil data dari GitHub...');
-  try{
-    const url=`https://api.github.com/repos/${encodeURIComponent(cfg.owner)}/${encodeURIComponent(cfg.repo)}/contents/pelanggan.json?ref=${encodeURIComponent(cfg.branch)}`;
-    const r=await fetch(url,{headers:{Authorization:'Bearer '+cfg.token,Accept:'application/vnd.github+json'}});
-    if(!r.ok)throw new Error('GitHub mengembalikan HTTP '+r.status);
-    const d=await r.json(); fileSha=d.sha; customers=JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g,'')))));
-    render();setSync('Data berhasil dimuat dari GitHub. '+customers.length+' pelanggan.');
-  }catch(e){setSync('Gagal: '+e.message)}
-}
+function clearForm(){editingId=null;$('formTitle').textContent='2. Tambah / Edit Pelanggan';['id','nama','paket','total','jatuh_tempo'].forEach(x=>$(x).value='');$('status_tagihan').value='BELUM BAYAR';}
+function saveCustomer(){const id=$('id').value.trim(),nama=$('nama').value.trim();if(!id||!nama)return alert('ID dan Nama wajib diisi.');let obj={id,nama,paket:$('paket').value.trim(),total:String($('total').value||0),jatuh_tempo:$('jatuh_tempo').value.trim(),status_tagihan:$('status_tagihan').value,riwayat_pembayaran:[]};if(editingId){const i=customers.findIndex(x=>x.id===editingId);if(i<0)return;if(id!==editingId&&customers.some(x=>x.id===id))return alert('ID pelanggan sudah digunakan.');obj.riwayat_pembayaran=customers[i].riwayat_pembayaran||[];customers[i]=obj}else{if(customers.some(x=>x.id===id))return alert('ID pelanggan sudah digunakan.');customers.push(obj)}clearForm();render();renderReport();setSync('Perubahan ada di halaman ini. Klik Simpan ke GitHub.')}
+function editCustomer(id){const c=customers.find(x=>x.id===id);if(!c)return;editingId=id;$('formTitle').textContent='2. Edit Pelanggan';$('id').value=c.id;$('nama').value=c.nama;$('paket').value=c.paket||'';$('total').value=c.total||'';$('jatuh_tempo').value=c.jatuh_tempo||'';$('status_tagihan').value=c.status_tagihan||'BELUM BAYAR';scrollTo({top:0,behavior:'smooth'})}
+function deleteCustomer(id){const c=customers.find(x=>x.id===id);if(!c||!confirm('Hapus pelanggan '+c.nama+' ('+id+')?'))return;customers=customers.filter(x=>x.id!==id);render();renderReport();setSync('Pelanggan dihapus dari daftar lokal. Klik Simpan ke GitHub jika sudah yakin.')}
+function render(){const q=$('search').value.toLowerCase().trim();const rows=customers.filter(c=>(c.id+' '+c.nama).toLowerCase().includes(q));$('count').textContent=customers.length;$('tbody').innerHTML=rows.length?rows.map(c=>{let h=c.riwayat_pembayaran||[];let st=c.status_tagihan||'BELUM BAYAR';return `<tr><td>${esc(c.id)}</td><td>${esc(c.nama)}</td><td>${esc(c.paket||'-')}</td><td>${rupiah(c.total)}</td><td>${esc(c.jatuh_tempo||'-')}</td><td><span class="badge ${st==='BELUM BAYAR'?'bad':''}">${esc(st)}</span></td><td>${h.length} transaksi</td><td><button class="secondary" onclick="editCustomer('${esc(c.id)}')">Edit</button> <button class="green" onclick="viewHistory('${esc(c.id)}')">Riwayat</button> <button class="danger" onclick="deleteCustomer('${esc(c.id)}')">Hapus</button></td></tr>`}).join(''):'<tr><td colspan="8" class="empty">Tidak ada pelanggan.</td></tr>'}
+function showPayCustomer(){const c=customers.find(x=>x.id===$('payId').value.trim());$('payCustomer').innerHTML=c?`<b>${esc(c.nama)}</b> — Tagihan ${rupiah(c.total)} — Status <b>${esc(c.status_tagihan||'BELUM BAYAR')}</b>`:'Pelanggan belum ditemukan.'}
+function addPayment(){const id=$('payId').value.trim(),date=$('payDate').value,amount=Number($('payAmount').value);const c=customers.find(x=>x.id===id);if(!c)return alert('ID pelanggan tidak ditemukan.');if(!date||amount<=0)return alert('Tanggal dan nominal wajib diisi.');c.riwayat_pembayaran=Array.isArray(c.riwayat_pembayaran)?c.riwayat_pembayaran:[];c.riwayat_pembayaran.push({tanggal:date,nominal:String(amount),metode:$('payMethod').value,referensi:$('payRef').value.trim(),catatan:$('payNote').value.trim(),status:'LUNAS'});c.status_tagihan='LUNAS';render();renderReport();showPayCustomer();setSync('Pembayaran dicatat. Status pelanggan menjadi LUNAS. Klik Simpan ke GitHub.');$('payAmount').value='';$('payRef').value='';$('payNote').value='';}
+function viewHistory(id){const c=customers.find(x=>x.id===id);if(!c)return;const h=c.riwayat_pembayaran||[];let text=h.length?h.map((p,i)=>`${i+1}. ${p.tanggal} — ${rupiah(p.nominal)} — ${p.metode}${p.referensi?' — '+p.referensi:''}`).join('\n'):'Belum ada riwayat pembayaran.';alert('RIWAYAT '+c.nama+'\n\n'+text)}
+function getConfig(){const token=$('token').value.trim(),owner=$('owner').value.trim(),repo=$('repo').value.trim(),branch=$('branch').value.trim();if(!token||!owner||!repo||!branch){alert('Lengkapi Owner, Repository, Branch, dan Token.');return null}return {token,owner,repo,branch}}
+async function loadFromGitHub(){const cfg=getConfig();if(!cfg)return;setSync('Mengambil data dari GitHub...');try{const url=`https://api.github.com/repos/${encodeURIComponent(cfg.owner)}/${encodeURIComponent(cfg.repo)}/contents/pelanggan.json?ref=${encodeURIComponent(cfg.branch)}`;const r=await fetch(url,{headers:{Authorization:'Bearer '+cfg.token,Accept:'application/vnd.github+json'}});if(!r.ok)throw new Error('GitHub HTTP '+r.status);const d=await r.json();fileSha=d.sha;customers=JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g,''))))).map(normalize);render();renderReport();setSync('Data berhasil dimuat dari GitHub. '+customers.length+' pelanggan.')}catch(e){setSync('Gagal: '+e.message)}}
 function encodeBase64Utf8(str){return btoa(unescape(encodeURIComponent(str)))}
-async function saveToGitHub(){
-  const cfg=getConfig();if(!cfg)return;
-  if(!confirm('Simpan '+customers.length+' data pelanggan ke pelanggan.json di GitHub?'))return;
-  setSync('Menyimpan ke GitHub...');
-  try{
-    let sha=fileSha;
-    if(!sha){
-      const get=`https://api.github.com/repos/${encodeURIComponent(cfg.owner)}/${encodeURIComponent(cfg.repo)}/contents/pelanggan.json?ref=${encodeURIComponent(cfg.branch)}`;
-      const gr=await fetch(get,{headers:{Authorization:'Bearer '+cfg.token,Accept:'application/vnd.github+json'}});
-      if(gr.ok)sha=(await gr.json()).sha;
-    }
-    const url=`https://api.github.com/repos/${encodeURIComponent(cfg.owner)}/${encodeURIComponent(cfg.repo)}/contents/pelanggan.json`;
-    const body={message:'Update data pelanggan Introvision',content:encodeBase64Utf8(JSON.stringify(customers,null,2)),branch:cfg.branch};
-    if(sha)body.sha=sha;
-    const r=await fetch(url,{method:'PUT',headers:{Authorization:'Bearer '+cfg.token,Accept:'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify(body)});
-    const d=await r.json();
-    if(!r.ok)throw new Error(d.message||('HTTP '+r.status));
-    fileSha=d.content.sha;setSync('Berhasil disimpan ke GitHub. Tunggu beberapa menit untuk deploy Pages.');
-  }catch(e){setSync('Gagal menyimpan: '+e.message)}
-}
-function downloadJSON(){
-  const blob=new Blob([JSON.stringify(customers,null,2)],{type:'application/json'});
-  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='pelanggan.json';a.click();URL.revokeObjectURL(a.href);
-}
-$('sync').insertAdjacentHTML('afterend','<div class="actions"><button class="dark" onclick="saveToGitHub()">Simpan ke GitHub</button></div>');
-render();
-</script>
-</body>
-</html>
+async function saveToGitHub(){const cfg=getConfig();if(!cfg)return;if(!confirm('Simpan '+customers.length+' data pelanggan ke pelanggan.json di GitHub?'))return;setSync('Menyimpan ke GitHub...');try{let sha=fileSha;if(!sha){const get=`https://api.github.com/repos/${encodeURIComponent(cfg.owner)}/${encodeURIComponent(cfg.repo)}/contents/pelanggan.json?ref=${encodeURIComponent(cfg.branch)}`;const gr=await fetch(get,{headers:{Authorization:'Bearer '+cfg.token,Accept:'application/vnd.github+json'}});if(gr.ok)sha=(await gr.json()).sha}const url=`https://api.github.com/repos/${encodeURIComponent(cfg.owner)}/${encodeURIComponent(cfg.repo)}/contents/pelanggan.json`;const body={message:'Update pelanggan, pembayaran dan laporan Introvision',content:encodeBase64Utf8(JSON.stringify(customers,null,2)),branch:cfg.branch};if(sha)body.sha=sha;const r=await fetch(url,{method:'PUT',headers:{Authorization:'Bearer '+cfg.token,Accept:'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify(body)});const d=await r.json();if(!r.ok)throw new Error(d.message||('HTTP '+r.status));fileSha=d.content.sha;setSync('Berhasil disimpan ke GitHub. Tunggu beberapa menit untuk deploy Pages.')}catch(e){setSync('Gagal menyimpan: '+e.message)}}
+function downloadJSON(){const blob=new Blob([JSON.stringify(customers,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='pelanggan.json';a.click();URL.revokeObjectURL(a.href)}
+function reportRows(){const ym=$('reportMonth').value;const filter=$('reportFilter').value;return customers.filter(c=>{const st=c.status_tagihan||'BELUM BAYAR';return filter==='ALL'||st===filter}).map(c=>{const paid=(c.riwayat_pembayaran||[]).filter(p=>String(p.tanggal||'').slice(0,7)===ym).reduce((a,p)=>a+Number(p.nominal||0),0);const bill=Number(c.total||0);return {c,bill,paid,due:Math.max(0,bill-paid)}})}
+function renderReport(){const rows=reportRows();let bill=0,paid=0,lunas=0;rows.forEach(r=>{bill+=r.bill;paid+=r.paid;if(r.c.status_tagihan==='LUNAS')lunas++});$('rBill').textContent=rupiah(bill);$('rPaid').textContent=rupiah(paid);$('rDue').textContent=rupiah(Math.max(0,bill-paid));$('rCount').textContent=lunas;$('reportBody').innerHTML=rows.length?rows.map(r=>`<tr><td>${esc(r.c.id)}</td><td>${esc(r.c.nama)}</td><td>${rupiah(r.bill)}</td><td>${rupiah(r.paid)}</td><td>${rupiah(r.due)}</td><td>${esc(r.c.status_tagihan||'BELUM BAYAR')}</td></tr>`).join(''):'<tr><td colspan="6" class="empty">Tidak ada data.</td></tr>'}
+function printReport(){const ym=$('reportMonth').value||monthNow();const rows=reportRows();const totalBill=rows.reduce((a,r)=>a+r.bill,0),totalPaid=rows.reduce((a,r)=>a+r.paid,0);$('printArea').innerHTML=`<div class="receipt"><h2>Laporan Tagihan Bulanan</h2><p>Introvision Network Solutions<br>Bulan: <b>${ym}</b></p><p>Total Tagihan: <b>${rupiah(totalBill)}</b><br>Total Pembayaran: <b>${rupiah(totalPaid)}</b><br>Sisa: <b>${rupiah(Math.max(0,totalBill-totalPaid))}</b></p><table style="width:100%;border-collapse:collapse"><tr><th style="text-align:left;border-bottom:1px solid #333">ID / Nama</th><th style="text-align:right;border-bottom:1px solid #333">Tagihan</th><th style="text-align:right;border-bottom:1px solid #333">Bayar</th><th>Status</th></tr>${rows.map(r=>`<tr><td>${esc(r.c.id)}<br>${esc(r.c.nama)}</td><td style="text-align:right">${rupiah(r.bill)}</td><td style="text-align:right">${rupiah(r.paid)}</td><td>${esc(r.c.status_tagihan||'BELUM BAYAR')}</td></tr>`).join('')}</table></div>`;window.print()}
+function downloadReportCSV(){const rows=reportRows();const csv=['ID,Nama,Tagihan,Dibayar,Sisa,Status',...rows.map(r=>[r.c.id,'"'+String(r.c.nama).replaceAll('"','""')+'"',r.bill,r.paid,r.due,r.c.status_tagihan||'BELUM BAYAR'].join(','))].join('\n');const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));a.download='laporan-tagihan-'+($('reportMonth').value||monthNow())+'.csv';a.click()}
+render();renderReport();
+</script></body></html>
