@@ -5,7 +5,9 @@
     "paket": "30 Mbps",
     "total": "160000",
     "jatuh_tempo": "04/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10398841",
@@ -13,7 +15,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10398751",
@@ -21,7 +25,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10398730",
@@ -29,7 +35,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10398508",
@@ -37,7 +45,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10398260",
@@ -45,7 +55,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10398229",
@@ -53,7 +65,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "100000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10398172",
@@ -61,7 +75,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10397958",
@@ -69,7 +85,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10397575",
@@ -77,7 +95,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10397220",
@@ -85,7 +105,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10397206",
@@ -93,7 +115,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10397170",
@@ -101,7 +125,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/12/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10396982",
@@ -109,7 +135,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "09/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10395162",
@@ -117,7 +145,9 @@
     "paket": "PAKET PREMIUM 50 MBPS CIBAY",
     "total": "260000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10394918",
@@ -125,7 +155,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10394893",
@@ -133,7 +165,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "21/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10394869",
@@ -141,7 +175,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10394701",
@@ -149,7 +185,9 @@
     "paket": "Paket Family 10 Perangkat Binong",
     "total": "260000",
     "jatuh_tempo": "23/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10394367",
@@ -157,7 +195,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10393783",
@@ -165,7 +205,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10393761",
@@ -173,7 +215,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10391860",
@@ -181,7 +225,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "15/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10391149",
@@ -189,7 +235,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "13/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390903",
@@ -197,7 +245,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "12/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390394",
@@ -205,7 +255,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390320",
@@ -213,7 +265,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390294",
@@ -221,7 +275,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390279",
@@ -229,7 +285,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390147",
@@ -237,7 +295,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "100000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390136",
@@ -245,7 +305,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390117",
@@ -253,7 +315,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390070",
@@ -261,7 +325,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "30/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390068",
@@ -269,7 +335,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "30/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390050",
@@ -277,7 +345,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "150000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390031",
@@ -285,7 +355,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390029",
@@ -293,7 +365,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390020",
@@ -301,7 +375,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390017",
@@ -309,7 +385,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390016",
@@ -317,7 +395,9 @@
     "paket": "Paket Family 10 Perangkat Binong",
     "total": "260000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390012",
@@ -325,7 +405,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390011",
@@ -333,7 +415,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "14/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390008",
@@ -341,7 +425,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "29/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390003",
@@ -349,7 +435,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "110000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10390000",
@@ -357,7 +445,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389998",
@@ -365,7 +455,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389997",
@@ -373,7 +465,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389992",
@@ -381,7 +475,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389990",
@@ -389,7 +485,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389988",
@@ -397,7 +495,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389986",
@@ -405,7 +505,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "110000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389985",
@@ -413,7 +515,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "27/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389983",
@@ -421,7 +525,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389981",
@@ -429,7 +535,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389977",
@@ -437,7 +545,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "27/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389976",
@@ -445,7 +555,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389973",
@@ -453,7 +565,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389967",
@@ -461,7 +575,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389964",
@@ -469,7 +585,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "140000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389962",
@@ -477,7 +595,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389958",
@@ -485,7 +605,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389957",
@@ -493,7 +615,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389955",
@@ -501,7 +625,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "110000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389954",
@@ -509,7 +635,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389952",
@@ -517,7 +645,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389949",
@@ -525,7 +655,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389948",
@@ -533,7 +665,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389947",
@@ -541,7 +675,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389945",
@@ -549,7 +685,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389942",
@@ -557,7 +695,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389940",
@@ -565,7 +705,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389936",
@@ -573,7 +715,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "29/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389778",
@@ -581,7 +725,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389777",
@@ -589,7 +735,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "200000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389720",
@@ -597,7 +745,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389717",
@@ -605,7 +755,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "17/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389715",
@@ -613,7 +765,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "25/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389714",
@@ -621,7 +775,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389712",
@@ -629,7 +785,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389711",
@@ -637,7 +795,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389708",
@@ -645,7 +805,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "140000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389703",
@@ -653,7 +815,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "14/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389694",
@@ -661,7 +825,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "04/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389693",
@@ -669,7 +835,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "150000",
     "jatuh_tempo": "04/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389691",
@@ -677,7 +845,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "140000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389429",
@@ -685,7 +855,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "150000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389420",
@@ -693,7 +865,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389417",
@@ -701,7 +875,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "150000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389405",
@@ -709,7 +885,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389383",
@@ -717,7 +895,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389352",
@@ -725,7 +905,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389333",
@@ -733,7 +915,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389318",
@@ -741,7 +925,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389314",
@@ -749,7 +935,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "30/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389269",
@@ -757,7 +945,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "30/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389264",
@@ -765,7 +955,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "29/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389254",
@@ -773,7 +965,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389252",
@@ -781,7 +975,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389248",
@@ -789,7 +985,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389242",
@@ -797,7 +995,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "30/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389241",
@@ -805,7 +1005,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "30/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389237",
@@ -813,7 +1015,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "28/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389225",
@@ -821,7 +1025,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "28/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389220",
@@ -829,7 +1035,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389209",
@@ -837,7 +1045,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389204",
@@ -845,7 +1055,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389202",
@@ -853,7 +1065,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "27/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389198",
@@ -861,7 +1075,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389195",
@@ -869,7 +1085,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389178",
@@ -877,7 +1095,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "140000",
     "jatuh_tempo": "22/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10389039",
@@ -885,7 +1105,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388943",
@@ -893,7 +1115,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388942",
@@ -901,7 +1125,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388940",
@@ -909,7 +1135,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388937",
@@ -917,7 +1145,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388933",
@@ -925,7 +1155,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388931",
@@ -933,7 +1165,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388929",
@@ -941,7 +1175,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388924",
@@ -949,7 +1185,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388923",
@@ -957,7 +1195,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "22/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388922",
@@ -965,7 +1205,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388921",
@@ -973,7 +1215,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388920",
@@ -981,7 +1225,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388919",
@@ -989,7 +1235,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388918",
@@ -997,7 +1245,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388912",
@@ -1005,7 +1255,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "150000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388911",
@@ -1013,7 +1265,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "150000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388910",
@@ -1021,7 +1275,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388909",
@@ -1029,7 +1285,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388907",
@@ -1037,7 +1295,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388906",
@@ -1045,7 +1305,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "110000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388905",
@@ -1053,7 +1315,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388904",
@@ -1061,7 +1325,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388902",
@@ -1069,7 +1335,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "16/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388888",
@@ -1077,7 +1345,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388869",
@@ -1085,7 +1355,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "13/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388865",
@@ -1093,7 +1365,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "16/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388810",
@@ -1101,7 +1375,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "100000",
     "jatuh_tempo": "13/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388796",
@@ -1109,7 +1385,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "08/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388748",
@@ -1117,7 +1395,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388742",
@@ -1125,7 +1405,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388740",
@@ -1133,7 +1415,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388738",
@@ -1141,7 +1425,9 @@
     "paket": "Paket Family 10 Perangkat Binong",
     "total": "260000",
     "jatuh_tempo": "19/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388733",
@@ -1149,7 +1435,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388728",
@@ -1157,7 +1445,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388725",
@@ -1165,7 +1455,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388723",
@@ -1173,7 +1465,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388701",
@@ -1181,7 +1475,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "17/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388699",
@@ -1189,7 +1485,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "17/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388698",
@@ -1197,7 +1495,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "17/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388694",
@@ -1205,7 +1505,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "17/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388693",
@@ -1213,7 +1515,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388689",
@@ -1221,7 +1525,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "05/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388687",
@@ -1229,7 +1535,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388680",
@@ -1237,7 +1545,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "14/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388679",
@@ -1245,7 +1555,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388673",
@@ -1253,7 +1565,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "13/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388670",
@@ -1261,7 +1575,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388668",
@@ -1269,7 +1585,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "13/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388666",
@@ -1277,7 +1595,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388622",
@@ -1285,7 +1605,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388620",
@@ -1293,7 +1615,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388618",
@@ -1301,7 +1625,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388457",
@@ -1309,7 +1635,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388421",
@@ -1317,7 +1645,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388416",
@@ -1325,7 +1655,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388413",
@@ -1333,7 +1665,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "13/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388407",
@@ -1341,7 +1675,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388404",
@@ -1349,7 +1685,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "12/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388403",
@@ -1357,7 +1695,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388402",
@@ -1365,7 +1705,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388392",
@@ -1373,7 +1715,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388391",
@@ -1381,7 +1725,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388389",
@@ -1389,7 +1735,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388387",
@@ -1397,7 +1745,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388384",
@@ -1405,7 +1755,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388381",
@@ -1413,7 +1765,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "06/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388379",
@@ -1421,7 +1775,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388373",
@@ -1429,7 +1785,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "09/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388372",
@@ -1437,7 +1795,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "09/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388370",
@@ -1445,7 +1805,9 @@
     "paket": "Paket Family 10 Perangkat Binong",
     "total": "260000",
     "jatuh_tempo": "09/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388369",
@@ -1453,7 +1815,9 @@
     "paket": "Paket Family 10 Perangkat Binong",
     "total": "260000",
     "jatuh_tempo": "09/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388367",
@@ -1461,7 +1825,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "09/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388363",
@@ -1469,7 +1835,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "08/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388361",
@@ -1477,7 +1845,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388360",
@@ -1485,7 +1855,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388358",
@@ -1493,7 +1865,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388356",
@@ -1501,7 +1875,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388347",
@@ -1509,7 +1885,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "05/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388345",
@@ -1517,7 +1895,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "04/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388342",
@@ -1525,7 +1905,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388340",
@@ -1533,7 +1915,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388339",
@@ -1541,7 +1925,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388338",
@@ -1549,7 +1935,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388337",
@@ -1557,7 +1945,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388336",
@@ -1565,7 +1955,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388334",
@@ -1573,7 +1965,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388330",
@@ -1581,7 +1975,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388328",
@@ -1589,7 +1985,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "02/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388327",
@@ -1597,7 +1995,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388323",
@@ -1605,7 +2005,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388322",
@@ -1613,7 +2015,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388321",
@@ -1621,7 +2025,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388320",
@@ -1629,7 +2035,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "05/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388319",
@@ -1637,7 +2045,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388313",
@@ -1645,7 +2055,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388310",
@@ -1653,7 +2065,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388309",
@@ -1661,7 +2075,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388308",
@@ -1669,7 +2085,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "180000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388306",
@@ -1677,7 +2095,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388305",
@@ -1685,7 +2105,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388301",
@@ -1693,7 +2115,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388299",
@@ -1701,7 +2125,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388298",
@@ -1709,7 +2135,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388295",
@@ -1717,7 +2145,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388290",
@@ -1725,7 +2155,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388289",
@@ -1733,7 +2165,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388285",
@@ -1741,7 +2175,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388284",
@@ -1749,7 +2185,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388283",
@@ -1757,7 +2195,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388282",
@@ -1765,7 +2205,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388281",
@@ -1773,7 +2215,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388280",
@@ -1781,7 +2225,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388279",
@@ -1789,7 +2235,9 @@
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388278",
@@ -1797,7 +2245,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388277",
@@ -1805,7 +2255,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388275",
@@ -1813,7 +2265,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388175",
@@ -1821,7 +2275,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388161",
@@ -1829,7 +2285,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388158",
@@ -1837,7 +2295,9 @@
     "paket": "Paket Family 8 Perangkat Binong",
     "total": "210000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388079",
@@ -1845,7 +2305,9 @@
     "paket": "Paket Family 10 Perangkat Binong",
     "total": "260000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388077",
@@ -1853,7 +2315,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10388047",
@@ -1861,7 +2325,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10387613",
@@ -1869,7 +2335,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "05/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10386865",
@@ -1877,7 +2345,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10386863",
@@ -1885,7 +2355,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10386736",
@@ -1893,7 +2365,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10386541",
@@ -1901,7 +2375,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "02/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10386483",
@@ -1909,7 +2385,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10386209",
@@ -1917,7 +2395,9 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10385149",
@@ -1925,7 +2405,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10385120",
@@ -1933,7 +2415,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "14/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10385061",
@@ -1941,7 +2425,9 @@
     "paket": "PAKET PREMIUM 50 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10385046",
@@ -1949,7 +2435,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10385039",
@@ -1957,7 +2445,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "100000",
     "jatuh_tempo": "08/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10385037",
@@ -1965,7 +2455,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10385019",
@@ -1973,7 +2465,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10382841",
@@ -1981,7 +2475,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10381966",
@@ -1989,7 +2485,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10381903",
@@ -1997,7 +2495,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10381884",
@@ -2005,7 +2505,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10381805",
@@ -2013,7 +2515,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10378190",
@@ -2021,7 +2525,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10378189",
@@ -2029,7 +2535,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "11/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377860",
@@ -2037,7 +2545,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "03/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377858",
@@ -2045,7 +2555,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "17/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377846",
@@ -2053,7 +2565,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377842",
@@ -2061,7 +2575,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377841",
@@ -2069,7 +2585,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377839",
@@ -2077,7 +2595,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "28/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377837",
@@ -2085,7 +2605,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377836",
@@ -2093,7 +2615,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377835",
@@ -2101,7 +2625,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377635",
@@ -2109,7 +2635,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377634",
@@ -2117,7 +2645,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "09/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377633",
@@ -2125,7 +2655,9 @@
     "paket": "Paket Family 10 Perangkat Binong",
     "total": "250000",
     "jatuh_tempo": "30/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377631",
@@ -2133,7 +2665,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "29/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377629",
@@ -2141,7 +2675,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "29/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377624",
@@ -2149,7 +2685,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "28/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377622",
@@ -2157,7 +2695,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377619",
@@ -2165,7 +2705,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377618",
@@ -2173,7 +2715,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377614",
@@ -2181,7 +2725,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377612",
@@ -2189,7 +2735,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "120000",
     "jatuh_tempo": "25/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377608",
@@ -2197,7 +2745,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377606",
@@ -2205,7 +2755,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377603",
@@ -2213,7 +2765,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377601",
@@ -2221,7 +2775,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377599",
@@ -2229,7 +2785,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "120000",
     "jatuh_tempo": "17/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377597",
@@ -2237,7 +2795,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "16/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377596",
@@ -2245,7 +2805,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "16/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377595",
@@ -2253,7 +2815,9 @@
     "paket": "PAKET PREMIUM 50 MBPS CIBAY",
     "total": "260000",
     "jatuh_tempo": "16/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377593",
@@ -2261,7 +2825,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "100000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377592",
@@ -2269,7 +2835,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377588",
@@ -2277,7 +2845,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "13/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377586",
@@ -2285,7 +2855,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "120000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377581",
@@ -2293,7 +2865,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377577",
@@ -2301,7 +2875,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "08/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377576",
@@ -2309,7 +2885,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "100000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377573",
@@ -2317,7 +2895,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "08/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377572",
@@ -2325,7 +2905,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377571",
@@ -2333,7 +2915,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377569",
@@ -2341,7 +2925,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377568",
@@ -2349,7 +2935,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "04/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377567",
@@ -2357,7 +2945,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377565",
@@ -2365,7 +2955,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377564",
@@ -2373,7 +2965,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "04/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377562",
@@ -2381,7 +2975,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377561",
@@ -2389,7 +2985,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377559",
@@ -2397,7 +2995,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377557",
@@ -2405,7 +3005,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377556",
@@ -2413,7 +3015,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377555",
@@ -2421,7 +3025,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/01/2027",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377553",
@@ -2429,7 +3035,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377552",
@@ -2437,7 +3045,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377551",
@@ -2445,7 +3055,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "12/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377550",
@@ -2453,7 +3065,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10377548",
@@ -2461,7 +3075,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376717",
@@ -2469,7 +3085,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376716",
@@ -2477,7 +3095,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376715",
@@ -2485,7 +3105,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376714",
@@ -2493,7 +3115,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376713",
@@ -2501,7 +3125,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376712",
@@ -2509,7 +3135,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376711",
@@ -2517,7 +3145,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376710",
@@ -2525,7 +3155,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376708",
@@ -2533,7 +3165,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376707",
@@ -2541,7 +3175,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376706",
@@ -2549,7 +3185,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376702",
@@ -2557,7 +3195,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10376700",
@@ -2565,7 +3205,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375924",
@@ -2573,7 +3215,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375922",
@@ -2581,7 +3225,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375921",
@@ -2589,7 +3235,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375902",
@@ -2597,7 +3245,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375899",
@@ -2605,7 +3255,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "22/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375895",
@@ -2613,7 +3265,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375894",
@@ -2621,7 +3275,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375890",
@@ -2629,7 +3285,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "120000",
     "jatuh_tempo": "26/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375888",
@@ -2637,7 +3295,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375885",
@@ -2645,7 +3305,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "02/09/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375884",
@@ -2653,7 +3315,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375883",
@@ -2661,7 +3325,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375881",
@@ -2669,7 +3335,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375880",
@@ -2677,7 +3345,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375281",
@@ -2685,7 +3355,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/08/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375276",
@@ -2693,7 +3365,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375274",
@@ -2701,7 +3375,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375271",
@@ -2709,7 +3385,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375263",
@@ -2717,7 +3395,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375257",
@@ -2725,7 +3405,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375250",
@@ -2733,7 +3415,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375247",
@@ -2741,7 +3425,9 @@
     "paket": "PAKET STANDAR 40 MBPS CIBAY",
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375131",
@@ -2749,7 +3435,9 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
-    "status": "SUSPEND"
+    "status": "SUSPEND",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   },
   {
     "id": "10375130",
@@ -2757,6 +3445,8 @@
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
     "jatuh_tempo": "05/11/2026",
-    "status": "AKTIF"
+    "status": "AKTIF",
+    "riwayat_pembayaran": [],
+    "status_tagihan": "BELUM BAYAR"
   }
 ]
