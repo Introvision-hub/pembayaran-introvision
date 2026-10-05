@@ -6,16 +6,6 @@
     "total": "160000",
     "jatuh_tempo": "04/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
-  },
-  {
-    "id": "10398841",
-    "nama": "LINA WATI",
-    "paket": "PAKET BASIC 30 MBPS CIBAY",
-    "total": "160000",
-    "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF",
     "riwayat_pembayaran": [
       {
         "tanggal": "2026-10-05",
@@ -29,12 +19,30 @@
     "status_tagihan": "LUNAS"
   },
   {
+    "id": "10398841",
+    "nama": "LINA WATI",
+    "paket": "PAKET BASIC 30 MBPS CIBAY",
+    "total": "160000",
+    "jatuh_tempo": "01/11/2026",
+    "status_tagihan": "LUNAS",
+    "riwayat_pembayaran": [
+      {
+        "tanggal": "2026-10-05",
+        "nominal": "160000",
+        "metode": "BCA",
+        "referensi": "",
+        "catatan": "Pembayaran Bulan Oktober",
+        "status": "LUNAS"
+      }
+    ]
+  },
+  {
     "id": "10398751",
     "nama": "Susilawati",
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
-    "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF",
+    "jatuh_tempo": "01/11/2026",
+    "status_tagihan": "LUNAS",
     "riwayat_pembayaran": [
       {
         "tanggal": "2026-10-03",
@@ -44,16 +52,15 @@
         "catatan": "Pembayaran Bulan Oktober",
         "status": "LUNAS"
       }
-    ],
-    "status_tagihan": "LUNAS"
+    ]
   },
   {
     "id": "10398730",
     "nama": "Pangkas Rambut Rubby",
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
-    "jatuh_tempo": "03/11/2026",
-    "status": "AKTIF",
+    "jatuh_tempo": "01/11/2026",
+    "status_tagihan": "LUNAS",
     "riwayat_pembayaran": [
       {
         "tanggal": "2026-10-03",
@@ -63,8 +70,7 @@
         "catatan": "Pembayaran Bulan Oktober",
         "status": "LUNAS"
       }
-    ],
-    "status_tagihan": "LUNAS"
+    ]
   },
   {
     "id": "10398508",
