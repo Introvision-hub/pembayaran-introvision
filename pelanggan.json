@@ -214,10 +214,9 @@
     "nama": "Febby",
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
-    "jatuh_tempo": "01/12/2026",
-    "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "jatuh_tempo": "01/11/2026",
+    "status_tagihan": "BELUM BAYAR",
+    "riwayat_pembayaran": []
   },
   {
     "id": "10396982",
