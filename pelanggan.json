@@ -140,8 +140,17 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "riwayat_pembayaran": [
+      {
+        "tanggal": "2026-10-01",
+        "nominal": "160000",
+        "metode": "BCA",
+        "referensi": "",
+        "catatan": "Pembayaran Bulan Oktober",
+        "status": "LUNAS"
+      }
+    ],
+    "status_tagihan": "LUNAS"
   },
   {
     "id": "10397575",
@@ -150,8 +159,17 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "riwayat_pembayaran": [
+      {
+        "tanggal": "2026-10-01",
+        "nominal": "120000",
+        "metode": "BCA",
+        "referensi": "",
+        "catatan": "Pembayaran Bulan Oktober",
+        "status": "LUNAS"
+      }
+    ],
+    "status_tagihan": "LUNAS"
   },
   {
     "id": "10397220",
@@ -160,8 +178,17 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "riwayat_pembayaran": [
+      {
+        "tanggal": "2026-10-01",
+        "nominal": "120000",
+        "metode": "BCA",
+        "referensi": "",
+        "catatan": "Pembayaran Bulan Oktober",
+        "status": "LUNAS"
+      }
+    ],
+    "status_tagihan": "LUNAS"
   },
   {
     "id": "10397206",
@@ -170,8 +197,17 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "riwayat_pembayaran": [
+      {
+        "tanggal": "2026-10-01",
+        "nominal": "160000",
+        "metode": "BCA",
+        "referensi": "",
+        "catatan": "Pembayaran Bulan Oktober",
+        "status": "LUNAS"
+      }
+    ],
+    "status_tagihan": "LUNAS"
   },
   {
     "id": "10397170",
