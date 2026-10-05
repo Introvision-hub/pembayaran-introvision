@@ -225,8 +225,17 @@
     "total": "160000",
     "jatuh_tempo": "09/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "riwayat_pembayaran": [
+      {
+        "tanggal": "2026-09-28",
+        "nominal": "160000",
+        "metode": "BCA",
+        "referensi": "",
+        "catatan": "Pembayaran Bulan Oktober",
+        "status": "LUNAS"
+      }
+    ],
+    "status_tagihan": "LUNAS"
   },
   {
     "id": "10395162",
