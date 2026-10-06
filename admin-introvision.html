@@ -58,7 +58,7 @@ textarea{min-height:170px;resize:vertical}.close{float:right;background:#f2f4f7}
 /* SISBRO-style customer page */
 .customer-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}.customer-head h2{margin:0}.customer-sub{color:#98a2b3;font-size:12px;margin-top:3px}.sisbro-filter{background:#fff;border:1px solid #eef0f4;border-radius:4px;padding:0;margin:12px 0 8px}.sisbro-filter-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:12px;row-gap:14px;padding:14px}.filter-field{display:flex;flex-direction:column;gap:6px}.filter-field label{font-size:12px;color:#555}.filter-field input,.filter-field select{width:100%;height:40px;border:1px solid #ddd;border-radius:4px;padding:8px 10px;font-size:12px;color:#555;background:#fff}.filter-field input::placeholder{color:#aaa}.filter-actions{display:flex;gap:8px;flex-wrap:wrap;padding:0 14px 14px}.filter-actions button{border-radius:3px;font-size:11px;padding:9px 14px}.btn-yellow{background:#ffd83d;color:#fff}.btn-pink{background:#f02f62;color:#fff}.btn-green{background:#42b83d;color:#fff}.column-btn{margin-left:auto;background:#fff;border:1px solid #e6a1c7;color:#c12a8d;border-radius:3px;padding:7px 14px;font-size:11px}.customer-table-wrap{background:#fff;border:1px solid #eef0f4;border-radius:0;overflow:auto}.customer-table{min-width:920px}.customer-table th{background:#fff;color:#444;font-size:11px;font-weight:600;border-bottom:1px solid #eee;padding:13px 10px}.customer-table td{font-size:11px;color:#555;padding:12px 10px;border-bottom:1px solid #f0f0f0}.customer-table tbody tr:hover{background:#faf7fc}.customer-table .namecell{font-weight:500;color:#555}.customer-table .phone{color:#7367d8}.customer-table .rowmark{width:4px;padding:0;background:#a83be7}.detail-btn{background:#eef2ff;color:#4338ca;border:1px solid #ddd6fe}.customer-table .actions{white-space:nowrap}.customer-footer{display:flex;justify-content:space-between;align-items:center;background:#fff;border:1px solid #eef0f4;border-top:0;padding:10px;font-size:11px;color:#555}.page-size{height:30px;border:1px solid #ddd;border-radius:3px;font-size:11px}.pagination{display:flex;gap:2px;align-items:center}.pagination button{padding:6px 9px;border:1px solid #e4e4e4;background:#fff;color:#6d6d6d;border-radius:2px;font-size:11px}.pagination button.active{background:#c56be9;color:#fff;border-color:#c56be9}.pagination button:disabled{opacity:.45}.mobile-hide{display:table-cell}.date-range{background:#f3f4f5!important;color:#999!important}.filter-title{font-size:13px;font-weight:600;color:#333;padding:14px 14px 0}@media(max-width:760px){.customer-head{align-items:flex-start}.customer-head .primary{white-space:nowrap}.sisbro-filter-grid{grid-template-columns:1fr}.customer-footer{flex-direction:column;align-items:flex-start;gap:10px}.pagination{align-self:flex-end}.customer-table{min-width:920px}}
 
-@media (max-width: 980px){
+@media (max-width:980px){
   .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
   header{align-items:flex-start;flex-direction:column}
   nav{width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}
@@ -66,12 +66,11 @@ textarea{min-height:170px;resize:vertical}.close{float:right;background:#f2f4f7}
   .table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
   table{min-width:850px}
 }
-@media (max-width: 620px){
+@media (max-width:620px){
   main{padding:12px}
   header{padding:14px 16px}
   .brand{font-size:19px}
   .cards{grid-template-columns:1fr}
-  .card{padding:13px}
   .toolbar{gap:8px}
   .toolbar input,.toolbar select,.toolbar button,input,select,textarea{width:100%;min-width:0}
   .modal{padding:10px}
@@ -80,6 +79,7 @@ button,input,select,textarea{font:inherit}
 button{touch-action:manipulation}
 html{scroll-behavior:smooth}
 
+</style>
 </head>
 <body>
 <header>
