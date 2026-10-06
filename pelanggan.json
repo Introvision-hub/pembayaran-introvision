@@ -3,90 +3,38 @@
     "id": "10388162",
     "nama": "Azhar Almalik",
     "paket": "30 Mbps",
-    "total": "160000",
-    "jatuh_tempo": "04/10/2026",
+    "total": "",
+    "jatuh_tempo": "05/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-05",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      },
-      {
-        "tanggal": "2026-10-05",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "",
-        "status": "LUNAS"
-      },
-      {
-        "tanggal": "2026-10-05",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "demo": true,
+    "wilayah": ""
   },
   {
     "id": "10398841",
     "nama": "LINA WATI",
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "160000",
-    "jatuh_tempo": "01/11/2026",
-    "status_tagihan": "LUNAS",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-05",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ]
+    "jatuh_tempo": "03/11/2026",
+    "status": "AKTIF",
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10398751",
     "nama": "Susilawati",
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
-    "jatuh_tempo": "01/11/2026",
-    "status_tagihan": "LUNAS",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-03",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ]
+    "jatuh_tempo": "03/11/2026",
+    "status": "AKTIF",
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10398730",
     "nama": "Pangkas Rambut Rubby",
     "paket": "Paket Family 3 Perangkat Binong",
     "total": "120000",
-    "jatuh_tempo": "01/11/2026",
-    "status_tagihan": "LUNAS",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-03",
-        "nominal": "120000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ]
+    "jatuh_tempo": "03/11/2026",
+    "status": "AKTIF",
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10398508",
@@ -95,17 +43,7 @@
     "total": "120000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-03",
-        "nominal": "120000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10398260",
@@ -114,17 +52,7 @@
     "total": "210000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-03",
-        "nominal": "210000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10398229",
@@ -133,17 +61,7 @@
     "total": "100000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-03",
-        "nominal": "100000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10398172",
@@ -152,8 +70,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10397958",
@@ -162,17 +79,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-01",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10397575",
@@ -181,17 +88,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-01",
-        "nominal": "120000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10397220",
@@ -200,17 +97,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-01",
-        "nominal": "120000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10397206",
@@ -219,26 +106,16 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-01",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10397170",
     "nama": "Febby",
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "160000",
-    "jatuh_tempo": "01/11/2026",
-    "status_tagihan": "BELUM BAYAR",
-    "riwayat_pembayaran": []
+    "jatuh_tempo": "01/12/2026",
+    "status": "AKTIF",
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10396982",
@@ -247,17 +124,7 @@
     "total": "160000",
     "jatuh_tempo": "09/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-09-28",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10395162",
@@ -266,8 +133,7 @@
     "total": "260000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10394918",
@@ -276,8 +142,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10394893",
@@ -286,8 +151,7 @@
     "total": "160000",
     "jatuh_tempo": "21/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10394869",
@@ -296,8 +160,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10394701",
@@ -306,8 +169,7 @@
     "total": "260000",
     "jatuh_tempo": "23/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10394367",
@@ -316,8 +178,7 @@
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10393783",
@@ -326,8 +187,7 @@
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10393761",
@@ -336,8 +196,7 @@
     "total": "210000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10391860",
@@ -346,8 +205,7 @@
     "total": "160000",
     "jatuh_tempo": "15/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10391149",
@@ -356,8 +214,7 @@
     "total": "160000",
     "jatuh_tempo": "13/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10390903",
@@ -366,8 +223,7 @@
     "total": "160000",
     "jatuh_tempo": "12/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10390394",
@@ -376,8 +232,7 @@
     "total": "120000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390320",
@@ -386,8 +241,7 @@
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390294",
@@ -396,8 +250,7 @@
     "total": "120000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390279",
@@ -406,8 +259,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390147",
@@ -416,8 +268,7 @@
     "total": "100000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390136",
@@ -426,8 +277,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10390117",
@@ -436,8 +286,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10390070",
@@ -446,8 +295,7 @@
     "total": "160000",
     "jatuh_tempo": "30/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390068",
@@ -456,8 +304,7 @@
     "total": "160000",
     "jatuh_tempo": "30/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390050",
@@ -466,8 +313,7 @@
     "total": "150000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390031",
@@ -476,8 +322,7 @@
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390029",
@@ -486,8 +331,7 @@
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390020",
@@ -496,8 +340,7 @@
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390017",
@@ -506,8 +349,7 @@
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390016",
@@ -516,8 +358,7 @@
     "total": "260000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390012",
@@ -526,8 +367,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390011",
@@ -536,8 +376,7 @@
     "total": "160000",
     "jatuh_tempo": "14/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390008",
@@ -546,8 +385,7 @@
     "total": "160000",
     "jatuh_tempo": "29/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390003",
@@ -556,8 +394,7 @@
     "total": "110000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10390000",
@@ -566,8 +403,7 @@
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389998",
@@ -576,8 +412,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389997",
@@ -586,8 +421,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389992",
@@ -596,8 +430,7 @@
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389990",
@@ -606,8 +439,7 @@
     "total": "210000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389988",
@@ -616,8 +448,7 @@
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389986",
@@ -626,8 +457,7 @@
     "total": "110000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389985",
@@ -636,8 +466,7 @@
     "total": "120000",
     "jatuh_tempo": "27/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389983",
@@ -646,8 +475,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389981",
@@ -656,8 +484,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389977",
@@ -666,8 +493,7 @@
     "total": "210000",
     "jatuh_tempo": "27/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389976",
@@ -676,8 +502,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389973",
@@ -686,8 +511,7 @@
     "total": "210000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389967",
@@ -696,8 +520,7 @@
     "total": "120000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389964",
@@ -706,8 +529,7 @@
     "total": "140000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389962",
@@ -716,8 +538,7 @@
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389958",
@@ -726,8 +547,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389957",
@@ -736,8 +556,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389955",
@@ -746,8 +565,7 @@
     "total": "110000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389954",
@@ -756,8 +574,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389952",
@@ -766,8 +583,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389949",
@@ -776,8 +592,7 @@
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389948",
@@ -786,8 +601,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389947",
@@ -796,8 +610,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389945",
@@ -806,8 +619,7 @@
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389942",
@@ -816,8 +628,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389940",
@@ -826,8 +637,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389936",
@@ -836,8 +646,7 @@
     "total": "120000",
     "jatuh_tempo": "29/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389778",
@@ -846,8 +655,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389777",
@@ -856,8 +664,7 @@
     "total": "200000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389720",
@@ -866,8 +673,7 @@
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389717",
@@ -876,8 +682,7 @@
     "total": "120000",
     "jatuh_tempo": "17/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389715",
@@ -886,8 +691,7 @@
     "total": "120000",
     "jatuh_tempo": "25/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389714",
@@ -896,8 +700,7 @@
     "total": "210000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389712",
@@ -906,8 +709,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389711",
@@ -916,8 +718,7 @@
     "total": "210000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389708",
@@ -926,8 +727,7 @@
     "total": "140000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389703",
@@ -936,8 +736,7 @@
     "total": "120000",
     "jatuh_tempo": "14/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389694",
@@ -946,8 +745,7 @@
     "total": "120000",
     "jatuh_tempo": "04/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389693",
@@ -956,8 +754,7 @@
     "total": "150000",
     "jatuh_tempo": "04/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389691",
@@ -966,8 +763,7 @@
     "total": "140000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389429",
@@ -976,8 +772,7 @@
     "total": "150000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389420",
@@ -986,8 +781,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389417",
@@ -995,9 +789,8 @@
     "paket": "Paket Family 5 Perangkat Binong",
     "total": "150000",
     "jatuh_tempo": "01/10/2026",
-    "wilayah": "Binong Djati",
-    "status_tagihan": "BELUM BAYAR",
-    "riwayat_pembayaran": []
+    "status": "SUSPEND",
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389405",
@@ -1006,8 +799,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389383",
@@ -1016,8 +808,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389352",
@@ -1026,8 +817,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389333",
@@ -1036,8 +826,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389318",
@@ -1046,8 +835,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389314",
@@ -1056,8 +844,7 @@
     "total": "120000",
     "jatuh_tempo": "30/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389269",
@@ -1066,8 +853,7 @@
     "total": "160000",
     "jatuh_tempo": "30/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389264",
@@ -1076,8 +862,7 @@
     "total": "160000",
     "jatuh_tempo": "29/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389254",
@@ -1086,8 +871,7 @@
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389252",
@@ -1096,8 +880,7 @@
     "total": "120000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389248",
@@ -1106,8 +889,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389242",
@@ -1116,8 +898,7 @@
     "total": "160000",
     "jatuh_tempo": "30/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389241",
@@ -1126,8 +907,7 @@
     "total": "160000",
     "jatuh_tempo": "30/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389237",
@@ -1136,8 +916,7 @@
     "total": "160000",
     "jatuh_tempo": "28/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389225",
@@ -1146,8 +925,7 @@
     "total": "160000",
     "jatuh_tempo": "28/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389220",
@@ -1156,8 +934,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389209",
@@ -1166,8 +943,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389204",
@@ -1176,8 +952,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389202",
@@ -1186,8 +961,7 @@
     "total": "160000",
     "jatuh_tempo": "27/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389198",
@@ -1196,8 +970,7 @@
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389195",
@@ -1206,8 +979,7 @@
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389178",
@@ -1216,8 +988,7 @@
     "total": "140000",
     "jatuh_tempo": "22/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10389039",
@@ -1226,8 +997,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388943",
@@ -1236,8 +1006,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388942",
@@ -1246,8 +1015,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388940",
@@ -1256,8 +1024,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388937",
@@ -1266,8 +1033,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388933",
@@ -1276,8 +1042,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388931",
@@ -1286,8 +1051,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388929",
@@ -1296,8 +1060,7 @@
     "total": "160000",
     "jatuh_tempo": "24/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388924",
@@ -1306,8 +1069,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388923",
@@ -1316,8 +1078,7 @@
     "total": "160000",
     "jatuh_tempo": "22/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388922",
@@ -1326,8 +1087,7 @@
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388921",
@@ -1336,8 +1096,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388920",
@@ -1346,8 +1105,7 @@
     "total": "210000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388919",
@@ -1356,8 +1114,7 @@
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388918",
@@ -1366,8 +1123,7 @@
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388912",
@@ -1376,8 +1132,7 @@
     "total": "150000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388911",
@@ -1386,8 +1141,7 @@
     "total": "150000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388910",
@@ -1396,8 +1150,7 @@
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388909",
@@ -1406,8 +1159,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388907",
@@ -1416,8 +1168,7 @@
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388906",
@@ -1426,8 +1177,7 @@
     "total": "110000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388905",
@@ -1436,8 +1186,7 @@
     "total": "120000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388904",
@@ -1446,8 +1195,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388902",
@@ -1456,8 +1204,7 @@
     "total": "160000",
     "jatuh_tempo": "16/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388888",
@@ -1466,8 +1213,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388869",
@@ -1476,8 +1222,7 @@
     "total": "210000",
     "jatuh_tempo": "13/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388865",
@@ -1486,8 +1231,7 @@
     "total": "160000",
     "jatuh_tempo": "16/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388810",
@@ -1496,8 +1240,7 @@
     "total": "100000",
     "jatuh_tempo": "13/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10388796",
@@ -1506,8 +1249,7 @@
     "total": "160000",
     "jatuh_tempo": "08/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10388748",
@@ -1516,8 +1258,7 @@
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388742",
@@ -1526,8 +1267,7 @@
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388740",
@@ -1536,8 +1276,7 @@
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388738",
@@ -1546,8 +1285,7 @@
     "total": "260000",
     "jatuh_tempo": "19/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388733",
@@ -1556,8 +1294,7 @@
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388728",
@@ -1566,8 +1303,7 @@
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388725",
@@ -1576,8 +1312,7 @@
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388723",
@@ -1586,8 +1321,7 @@
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388701",
@@ -1596,8 +1330,7 @@
     "total": "160000",
     "jatuh_tempo": "17/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388699",
@@ -1606,8 +1339,7 @@
     "total": "160000",
     "jatuh_tempo": "17/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388698",
@@ -1616,8 +1348,7 @@
     "total": "160000",
     "jatuh_tempo": "17/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388694",
@@ -1626,8 +1357,7 @@
     "total": "210000",
     "jatuh_tempo": "17/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388693",
@@ -1636,8 +1366,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388689",
@@ -1646,8 +1375,7 @@
     "total": "160000",
     "jatuh_tempo": "05/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388687",
@@ -1656,8 +1384,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388680",
@@ -1666,8 +1393,7 @@
     "total": "120000",
     "jatuh_tempo": "14/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388679",
@@ -1676,8 +1402,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388673",
@@ -1686,8 +1411,7 @@
     "total": "210000",
     "jatuh_tempo": "13/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388670",
@@ -1696,8 +1420,7 @@
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388668",
@@ -1706,8 +1429,7 @@
     "total": "160000",
     "jatuh_tempo": "13/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388666",
@@ -1716,8 +1438,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388622",
@@ -1726,8 +1447,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388620",
@@ -1736,8 +1456,7 @@
     "total": "160000",
     "jatuh_tempo": "24/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388618",
@@ -1746,8 +1465,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388457",
@@ -1756,8 +1474,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388421",
@@ -1766,8 +1483,7 @@
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388416",
@@ -1776,8 +1492,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388413",
@@ -1786,8 +1501,7 @@
     "total": "160000",
     "jatuh_tempo": "13/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388407",
@@ -1796,8 +1510,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388404",
@@ -1806,8 +1519,7 @@
     "total": "160000",
     "jatuh_tempo": "12/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388403",
@@ -1816,8 +1528,7 @@
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388402",
@@ -1826,8 +1537,7 @@
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388392",
@@ -1836,8 +1546,7 @@
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388391",
@@ -1846,8 +1555,7 @@
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388389",
@@ -1856,8 +1564,7 @@
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388387",
@@ -1866,8 +1573,7 @@
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388384",
@@ -1876,8 +1582,7 @@
     "total": "160000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388381",
@@ -1886,8 +1591,7 @@
     "total": "160000",
     "jatuh_tempo": "06/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388379",
@@ -1896,8 +1600,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388373",
@@ -1906,8 +1609,7 @@
     "total": "160000",
     "jatuh_tempo": "09/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388372",
@@ -1916,8 +1618,7 @@
     "total": "160000",
     "jatuh_tempo": "09/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388370",
@@ -1926,8 +1627,7 @@
     "total": "260000",
     "jatuh_tempo": "09/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388369",
@@ -1936,8 +1636,7 @@
     "total": "260000",
     "jatuh_tempo": "09/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388367",
@@ -1946,8 +1645,7 @@
     "total": "160000",
     "jatuh_tempo": "09/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388363",
@@ -1956,8 +1654,7 @@
     "total": "120000",
     "jatuh_tempo": "08/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388361",
@@ -1966,8 +1663,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388360",
@@ -1976,8 +1672,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388358",
@@ -1986,8 +1681,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388356",
@@ -1996,8 +1690,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388347",
@@ -2006,8 +1699,7 @@
     "total": "160000",
     "jatuh_tempo": "05/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388345",
@@ -2016,8 +1708,7 @@
     "total": "210000",
     "jatuh_tempo": "04/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388342",
@@ -2026,8 +1717,7 @@
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388340",
@@ -2036,8 +1726,7 @@
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388339",
@@ -2046,8 +1735,7 @@
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388338",
@@ -2056,8 +1744,7 @@
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388337",
@@ -2066,8 +1753,7 @@
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388336",
@@ -2076,8 +1762,7 @@
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388334",
@@ -2086,8 +1771,7 @@
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388330",
@@ -2096,8 +1780,7 @@
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388328",
@@ -2106,8 +1789,7 @@
     "total": "160000",
     "jatuh_tempo": "02/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388327",
@@ -2116,8 +1798,7 @@
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388323",
@@ -2126,8 +1807,7 @@
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388322",
@@ -2136,8 +1816,7 @@
     "total": "120000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388321",
@@ -2146,8 +1825,7 @@
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388320",
@@ -2156,8 +1834,7 @@
     "total": "160000",
     "jatuh_tempo": "05/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388319",
@@ -2166,8 +1843,7 @@
     "total": "160000",
     "jatuh_tempo": "02/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388313",
@@ -2176,8 +1852,7 @@
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388310",
@@ -2186,8 +1861,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388309",
@@ -2196,8 +1870,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388308",
@@ -2206,8 +1879,7 @@
     "total": "180000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388306",
@@ -2216,8 +1888,7 @@
     "total": "160000",
     "jatuh_tempo": "01/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388305",
@@ -2226,8 +1897,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388301",
@@ -2236,8 +1906,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388299",
@@ -2246,8 +1915,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388298",
@@ -2256,8 +1924,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388295",
@@ -2266,8 +1933,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388290",
@@ -2276,8 +1942,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388289",
@@ -2286,8 +1951,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388285",
@@ -2296,8 +1960,7 @@
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388284",
@@ -2306,8 +1969,7 @@
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388283",
@@ -2316,8 +1978,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388282",
@@ -2326,8 +1987,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388281",
@@ -2336,8 +1996,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388280",
@@ -2346,8 +2005,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388279",
@@ -2356,8 +2014,7 @@
     "total": "120000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388278",
@@ -2366,8 +2023,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388277",
@@ -2376,8 +2032,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388275",
@@ -2386,8 +2041,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388175",
@@ -2396,8 +2050,7 @@
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388161",
@@ -2406,8 +2059,7 @@
     "total": "160000",
     "jatuh_tempo": "18/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388158",
@@ -2416,8 +2068,7 @@
     "total": "210000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388079",
@@ -2426,8 +2077,7 @@
     "total": "260000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388077",
@@ -2436,8 +2086,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10388047",
@@ -2446,8 +2095,7 @@
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10387613",
@@ -2456,8 +2104,7 @@
     "total": "160000",
     "jatuh_tempo": "05/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10386865",
@@ -2466,8 +2113,7 @@
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10386863",
@@ -2476,8 +2122,7 @@
     "total": "160000",
     "jatuh_tempo": "03/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10386736",
@@ -2486,8 +2131,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10386541",
@@ -2496,8 +2140,7 @@
     "total": "160000",
     "jatuh_tempo": "02/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10386483",
@@ -2506,8 +2149,7 @@
     "total": "160000",
     "jatuh_tempo": "19/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10386209",
@@ -2516,8 +2158,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Binong Djati"
   },
   {
     "id": "10385149",
@@ -2526,8 +2167,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10385120",
@@ -2536,8 +2176,7 @@
     "total": "160000",
     "jatuh_tempo": "14/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10385061",
@@ -2546,8 +2185,7 @@
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10385046",
@@ -2556,8 +2194,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10385039",
@@ -2566,8 +2203,7 @@
     "total": "100000",
     "jatuh_tempo": "08/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10385037",
@@ -2576,8 +2212,7 @@
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10385019",
@@ -2586,8 +2221,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10382841",
@@ -2596,8 +2230,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10381966",
@@ -2606,8 +2239,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10381903",
@@ -2616,8 +2248,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10381884",
@@ -2626,8 +2257,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10381805",
@@ -2636,8 +2266,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10378190",
@@ -2646,8 +2275,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10378189",
@@ -2656,8 +2284,7 @@
     "total": "210000",
     "jatuh_tempo": "11/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377860",
@@ -2666,8 +2293,7 @@
     "total": "160000",
     "jatuh_tempo": "03/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377858",
@@ -2676,8 +2302,7 @@
     "total": "160000",
     "jatuh_tempo": "17/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377846",
@@ -2686,8 +2311,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377842",
@@ -2696,8 +2320,7 @@
     "total": "210000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377841",
@@ -2706,8 +2329,7 @@
     "total": "160000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377839",
@@ -2716,8 +2338,7 @@
     "total": "160000",
     "jatuh_tempo": "28/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377837",
@@ -2726,8 +2347,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377836",
@@ -2736,8 +2356,7 @@
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377835",
@@ -2746,8 +2365,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377635",
@@ -2756,8 +2374,7 @@
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377634",
@@ -2766,8 +2383,7 @@
     "total": "160000",
     "jatuh_tempo": "09/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377633",
@@ -2776,8 +2392,7 @@
     "total": "250000",
     "jatuh_tempo": "30/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377631",
@@ -2786,8 +2401,7 @@
     "total": "160000",
     "jatuh_tempo": "29/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377629",
@@ -2796,8 +2410,7 @@
     "total": "160000",
     "jatuh_tempo": "29/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377624",
@@ -2806,8 +2419,7 @@
     "total": "160000",
     "jatuh_tempo": "28/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377622",
@@ -2816,8 +2428,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377619",
@@ -2826,8 +2437,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377618",
@@ -2836,8 +2446,7 @@
     "total": "160000",
     "jatuh_tempo": "27/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377614",
@@ -2846,8 +2455,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377612",
@@ -2856,8 +2464,7 @@
     "total": "120000",
     "jatuh_tempo": "25/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377608",
@@ -2866,8 +2473,7 @@
     "total": "160000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377606",
@@ -2876,8 +2482,7 @@
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377603",
@@ -2886,8 +2491,7 @@
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377601",
@@ -2896,8 +2500,7 @@
     "total": "160000",
     "jatuh_tempo": "20/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377599",
@@ -2906,8 +2509,7 @@
     "total": "120000",
     "jatuh_tempo": "17/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377597",
@@ -2916,8 +2518,7 @@
     "total": "160000",
     "jatuh_tempo": "16/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377596",
@@ -2926,8 +2527,7 @@
     "total": "160000",
     "jatuh_tempo": "16/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377595",
@@ -2936,8 +2536,7 @@
     "total": "260000",
     "jatuh_tempo": "16/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377593",
@@ -2946,8 +2545,7 @@
     "total": "100000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377592",
@@ -2956,8 +2554,7 @@
     "total": "160000",
     "jatuh_tempo": "15/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377588",
@@ -2966,8 +2563,7 @@
     "total": "160000",
     "jatuh_tempo": "13/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377586",
@@ -2976,8 +2572,7 @@
     "total": "120000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377581",
@@ -2986,8 +2581,7 @@
     "total": "210000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377577",
@@ -2996,8 +2590,7 @@
     "total": "160000",
     "jatuh_tempo": "08/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377576",
@@ -3006,8 +2599,7 @@
     "total": "100000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377573",
@@ -3016,8 +2608,7 @@
     "total": "160000",
     "jatuh_tempo": "08/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377572",
@@ -3026,8 +2617,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377571",
@@ -3036,8 +2626,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377569",
@@ -3046,8 +2635,7 @@
     "total": "160000",
     "jatuh_tempo": "06/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377568",
@@ -3056,8 +2644,7 @@
     "total": "210000",
     "jatuh_tempo": "04/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377567",
@@ -3066,8 +2653,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377565",
@@ -3076,8 +2662,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377564",
@@ -3086,8 +2671,7 @@
     "total": "160000",
     "jatuh_tempo": "04/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377562",
@@ -3096,8 +2680,7 @@
     "total": "160000",
     "jatuh_tempo": "01/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377561",
@@ -3106,8 +2689,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377559",
@@ -3116,8 +2698,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377557",
@@ -3126,8 +2707,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377556",
@@ -3136,8 +2716,7 @@
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377555",
@@ -3146,8 +2725,7 @@
     "total": "160000",
     "jatuh_tempo": "01/01/2027",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377553",
@@ -3156,8 +2734,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377552",
@@ -3166,8 +2743,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377551",
@@ -3176,8 +2752,7 @@
     "total": "160000",
     "jatuh_tempo": "12/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377550",
@@ -3186,8 +2761,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10377548",
@@ -3196,8 +2770,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376717",
@@ -3206,8 +2779,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376716",
@@ -3216,8 +2788,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376715",
@@ -3226,8 +2797,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376714",
@@ -3236,8 +2806,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376713",
@@ -3246,8 +2815,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376712",
@@ -3256,8 +2824,7 @@
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376711",
@@ -3266,8 +2833,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376710",
@@ -3276,8 +2842,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376708",
@@ -3286,8 +2851,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376707",
@@ -3296,8 +2860,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376706",
@@ -3306,8 +2869,7 @@
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376702",
@@ -3316,8 +2878,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10376700",
@@ -3326,8 +2887,7 @@
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375924",
@@ -3336,8 +2896,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375922",
@@ -3346,8 +2905,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375921",
@@ -3356,8 +2914,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375902",
@@ -3366,8 +2923,7 @@
     "total": "160000",
     "jatuh_tempo": "10/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375899",
@@ -3376,8 +2932,7 @@
     "total": "210000",
     "jatuh_tempo": "22/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375895",
@@ -3386,8 +2941,7 @@
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375894",
@@ -3396,8 +2950,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375890",
@@ -3406,17 +2959,7 @@
     "total": "120000",
     "jatuh_tempo": "26/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-01",
-        "nominal": "120000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan September",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375888",
@@ -3425,8 +2968,7 @@
     "total": "160000",
     "jatuh_tempo": "21/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375885",
@@ -3435,8 +2977,7 @@
     "total": "160000",
     "jatuh_tempo": "02/09/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375884",
@@ -3445,8 +2986,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375883",
@@ -3455,8 +2995,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375881",
@@ -3465,8 +3004,7 @@
     "total": "210000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375880",
@@ -3475,17 +3013,7 @@
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-01",
-        "nominal": "210000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375281",
@@ -3494,8 +3022,7 @@
     "total": "160000",
     "jatuh_tempo": "01/08/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375276",
@@ -3504,8 +3031,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375274",
@@ -3514,8 +3040,7 @@
     "total": "160000",
     "jatuh_tempo": "07/10/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375271",
@@ -3524,8 +3049,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375263",
@@ -3534,8 +3058,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375257",
@@ -3544,8 +3067,7 @@
     "total": "160000",
     "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375250",
@@ -3554,17 +3076,7 @@
     "total": "160000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [
-      {
-        "tanggal": "2026-10-05",
-        "nominal": "160000",
-        "metode": "BCA",
-        "referensi": "",
-        "catatan": "Pembayaran Bulan Oktober",
-        "status": "LUNAS"
-      }
-    ],
-    "status_tagihan": "LUNAS"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375247",
@@ -3573,8 +3085,7 @@
     "total": "210000",
     "jatuh_tempo": "01/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375131",
@@ -3583,8 +3094,7 @@
     "total": "160000",
     "jatuh_tempo": "03/10/2026",
     "status": "SUSPEND",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
+    "wilayah": "Cibaduyut"
   },
   {
     "id": "10375130",
@@ -3593,34 +3103,6 @@
     "total": "160000",
     "jatuh_tempo": "05/11/2026",
     "status": "AKTIF",
-    "riwayat_pembayaran": [],
-    "status_tagihan": "BELUM BAYAR"
-  },
-  {
-    "id": "10399416",
-    "nama": "Lina Mulyani",
-    "paket": "Paket Basic 30mbps",
-    "total": "160000",
-    "jatuh_tempo": "05/11/2026",
-    "status_tagihan": "BELUM BAYAR",
-    "riwayat_pembayaran": []
-  },
-  {
-    "id": "10399465",
-    "nama": "Nurdin",
-    "paket": "Paket Basic 30mbps",
-    "total": "160000",
-    "jatuh_tempo": "05/11/2026",
-    "status_tagihan": "BELUM BAYAR",
-    "riwayat_pembayaran": []
-  },
-  {
-    "id": "10399821",
-    "nama": "Rizki Fauzi",
-    "paket": "Paket Basic 30Mbps",
-    "total": "160000",
-    "jatuh_tempo": "01/11/2026",
-    "status_tagihan": "LUNAS",
-    "riwayat_pembayaran": []
+    "wilayah": "Cibaduyut"
   }
 ]
