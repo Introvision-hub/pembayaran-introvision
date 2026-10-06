@@ -3613,5 +3613,14 @@
     "jatuh_tempo": "05/11/2026",
     "status_tagihan": "BELUM BAYAR",
     "riwayat_pembayaran": []
+  },
+  {
+    "id": "10399821",
+    "nama": "Rizki Fauzi",
+    "paket": "Paket Basic 30Mbps",
+    "total": "160000",
+    "jatuh_tempo": "01/11/2026",
+    "status_tagihan": "LUNAS",
+    "riwayat_pembayaran": []
   }
 ]
