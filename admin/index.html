@@ -255,7 +255,10 @@ function filtered() {
   return customers.filter(c=>{
     const hay=Object.values(c).map(v=>String(v??'')).join(' ').toLowerCase();
     if(q && !hay.includes(q)) return false;
-    for(const [field,id] of fs) if($(id).value && val(c,field)!==$(id).value) return false;
+    for(const [field,id] of fs){
+      const needle=String($(id)?.value||'').trim().toLowerCase();
+      if(needle && !String(val(c,field)||'').toLowerCase().includes(needle)) return false;
+    }
     return true;
   });
 }
@@ -378,31 +381,65 @@ function savePayment(id){
   closeModal(); render();
 }
 function openAdd() {
-  $('modalContent').innerHTML='<h2>Tambah Pelanggan</h2><p class="muted">Nomor pelanggan dibuat otomatis.</p>'+
-    '<div class="grid">'+
-    '<div class="field"><label>Nama</label><input id="aNama"></div>'+
-    '<div class="field"><label>Nomor HP</label><input id="aTelp"></div>'+
-    '<div class="field"><label>Wilayah</label><select id="aWilayah"></select></div>'+
-    '<div class="field"><label>ODP</label><select id="aOdp"></select></div>'+
-    '<div class="field"><label>Paket</label><select id="aPaket"></select></div>'+
-    '<div class="field"><label>Total Tagihan</label><input id="aTotal" type="number" value="160000"></div>'+
-    '<div class="field"><label>Jatuh Tempo</label><input id="aJatuh" type="date"></div>'+
-    '<div class="field"><label>Alamat</label><textarea id="aAlamat"></textarea></div></div>'+
+  const v13Norm = v => String(v ?? '').trim();
+  const v13Rupiah = n => 'Rp' + Math.round(Number(n) || 0).toLocaleString('id-ID');
+  $('modalContent').innerHTML='<h2>Tambah Pelanggan</h2><p class="muted">Nomor pelanggan dibuat otomatis.</p>'+\
+    '<div class="grid">'+\
+    '<div class="field"><label>Nama</label><input id="aNama"></div>'+\
+    '<div class="field"><label>Nomor HP</label><input id="aTelp"></div>'+\
+    '<div class="field"><label>Wilayah</label><select id="aWilayah"></select></div>'+\
+    '<div class="field"><label>ODP</label><select id="aOdp"></select></div>'+\
+    '<div class="field"><label>Kota</label><input id="aKota" value="KOTA BANDUNG" list="v13KotaList"></div>'+\
+    '<div class="field"><label>Kecamatan</label><input id="aKecamatan" list="v13KecList" placeholder="Ketik/pilih kecamatan"></div>'+\
+    '<div class="field"><label>Kelurahan / Desa</label><input id="aDesa" list="v13DesaList" placeholder="Ketik/pilih kelurahan"></div>'+\
+    '<div class="field"><label>Nama Paket</label><input id="aPaket" list="v13PaketList" placeholder="Contoh: Paket 30 Mbps"></div>'+\
+    '<div class="field"><label>Harga Paket</label><input id="aHarga" type="number" min="0" value="0"></div>'+\
+    '<div class="field"><label>Discount (%)</label><input id="aDiscount" type="number" min="0" max="100" step="0.01" value="0"></div>'+\
+    '<div class="field"><label>Nilai Discount</label><input id="aDiscountNom" readonly value="Rp0"></div>'+\
+    '<div class="field"><label>Biaya Instalasi</label><input id="aInstalasi" type="number" min="0" value="0"></div>'+\
+    '<div class="field"><label><b>Total Otomatis</b></label><input id="aTotal" type="number" value="0" readonly></div>'+\
+    '<div class="field"><label>Jatuh Tempo</label><input id="aJatuh" type="date"></div>'+\
+    '<div class="field" style="grid-column:1/-1"><label>Alamat Lengkap</label><textarea id="aAlamat"></textarea></div></div>'+\
+    '<div class="card" style="margin-top:12px;background:#f8fafc"><b>Rincian Tagihan</b><div id="aFormula" style="margin-top:8px;color:#555">Rp0 âˆ’ Rp0 + Rp0 = Rp0</div></div>'+\
+    '<datalist id="v13KotaList"><option value="KOTA BANDUNG"></option></datalist>'+\
+    '<datalist id="v13KecList"></datalist><datalist id="v13DesaList"></datalist><datalist id="v13PaketList"></datalist>'+\
     '<div class="actions"><button id="saveAdd" class="btn primary">Simpan Pelanggan</button><button id="cancelAdd" class="btn gray">Batal</button></div>';
   const fill=(id,field)=>options($(id),field);
-  fill('aWilayah','wilayah'); fill('aOdp','odp'); fill('aPaket','paket');
+  fill('aWilayah','wilayah');
+  fill('aOdp','odp');
+  const paketList=[...new Set(customers.map(x=>v13Norm(x.paket)).filter(Boolean))];
+  $('v13PaketList').innerHTML=paketList.map(x=>'<option value="'+String(x).replace(/"/g,'&quot;')+'"></option>').join('');
+  function fillKec(){
+    const kec=Object.keys(window.V13_WILAYAH||{});
+    $('v13KecList').innerHTML=kec.map(x=>'<option value="'+x.replace(/"/g,'&quot;')+'"></option>').join('');
+    const val=v13Norm($('aKecamatan').value);
+    const desa=(window.V13_WILAYAH&&window.V13_WILAYAH[val])||[];
+    $('v13DesaList').innerHTML=desa.map(x=>'<option value="'+x.replace(/"/g,'&quot;')+'"></option>').join('');
+  }
+  $('aKecamatan').addEventListener('input',fillKec);
+  fillKec();
+  function calcAdd(){
+    const h=+$('aHarga').value||0,d=+$('aDiscount').value||0,i=+$('aInstalasi').value||0;
+    const n=h*d/100,t=Math.max(0,h-n+i);
+    $('aDiscountNom').value=v13Rupiah(n); $('aTotal').value=Math.round(t);
+    $('aFormula').textContent=v13Rupiah(h)+' âˆ’ '+v13Rupiah(n)+' + '+v13Rupiah(i)+' = '+v13Rupiah(t);
+  }
+  ['aHarga','aDiscount','aInstalasi'].forEach(id=>$(id).addEventListener('input',calcAdd));
   $('saveAdd').onclick=saveAdd; $('cancelAdd').onclick=closeModal;
+  calcAdd();
   $('modal').classList.add('show');
 }
 
 function saveAdd() {
   const id=String(Math.floor(10000000+Math.random()*90000000));
+  const harga=Number($('aHarga').value||0), discount=Number($('aDiscount').value||0), instalasi=Number($('aInstalasi').value||0);
+  const nilaiDiscount=Math.round(harga*discount/100), total=Math.max(0,harga-nilaiDiscount+instalasi);
   customers.unshift({
     id,nama:$('aNama').value.trim()||'Pelanggan Baru',telepon:$('aTelp').value.trim(),
-    wilayah:$('aWilayah').value,odp:$('aOdp').value,paket:$('aPaket').value,total:Number($('aTotal').value||0),
+    wilayah:$('aWilayah').value,odp:$('aOdp').value,paket:$('aPaket').value.trim(),
+    harga_paket:harga,discount_persen:discount,nilai_discount:nilaiDiscount,biaya_instalasi:instalasi,total:total,
     jatuh_tempo:$('aJatuh').value,status:'AKTIF',alamat:$('aAlamat').value.trim(),
-    desa:'',kecamatan:'',kota:'',marketing:'',periode:'',
-    tanggal_daftar:$('aDaftar').value,tanggal_aktif:$('aAktif').value,tanggal_berakhir:$('aBerakhir').value,
+    desa:$('aDesa').value.trim(),kecamatan:$('aKecamatan').value.trim(),kota:$('aKota').value.trim()||'KOTA BANDUNG',marketing:'',periode:'',
     payment:{status:'BELUM BAYAR',tanggal:'',metode:'',referensi:''}
   });
   closeModal(); fillFilters(); render();
@@ -548,6 +585,7 @@ renderReports();
 <script id="introvision-v13-enhancements">
 (function(){
 const WILAYAH={"Andir": ["Campaka", "Ciroyom", "Dungus Cariang", "Garuda", "Kebon Jeruk", "Maleber"], "Antapani": ["Antapani Kidul", "Antapani Tengah", "Antapani Wetan", "Antapani Kulon"], "Arcamanik": ["Cisaranten Endah", "Cisaranten Kulon", "Cisaranten Bina Harapan", "Sukamiskin"], "Astanaanyar": ["Cibadak", "Karanganyar", "Karasak", "Nyengseret", "Panjunan", "Pelindung Hewan"], "Babakan Ciparay": ["Babakan", "Babakan Ciparay", "Cirangrang", "Margahayu Utara", "Margasuka", "Sukahaji"], "Bandung Kidul": ["Batununggal", "Kujangsari", "Mengger", "Wates"], "Bandung Kulon": ["Caringin", "Cibuntu", "Cigondewah Kaler", "Cigondewah Kidul", "Cigondewah Rahayu", "Gempolsari", "Warung Muncang"], "Bandung Wetan": ["Cihapit", "Citarum", "Tamansari"], "Batununggal": ["Binong", "Cibangkong", "Gumuruh", "Kacapiring", "Kebon Gedang", "Maleer", "Samoja"], "Bojongloa Kaler": ["Babakan Asih", "Babakan Tarogong", "Jamika", "Kopo", "Suka Asih"], "Bojongloa Kidul": ["Cibaduyut", "Cibaduyut Kidul", "Cibaduyut Wetan", "Kebon Lega", "Mekarwangi", "Situsaeur"], "Buahbatu": ["Cijawura", "Jatisari", "Margasari", "Sekejati"], "Cibeunying Kaler": ["Cigadung", "Cihaurgeulis", "Neglasari", "Sukaluyu"], "Cibeunying Kidul": ["Cicadas", "Cikutra", "Padasuka", "Pasirlayung", "Sukamaju", "Sukapada"], "Cibiru": ["Cipadung", "Cisurupan", "Palasari", "Pasir Biru"], "Cicendo": ["Arjuna", "Husein Sastranegara", "Pajajaran", "Pamoyanan", "Pasirkaliki", "Sukaraja"], "Cidadap": ["Ciumbuleuit", "Hegarmanah", "Ledeng"], "Cinambo": ["Babakan Penghulu", "Cisaranten Wetan", "Pakemitan", "Sukamulya"], "Coblong": ["Dago", "Lebak Gede", "Lebak Siliwangi", "Sadang Serang", "Sekeloa", "Cipaganti"], "Gedebage": ["Cimincrang", "Cisaranten Kidul", "Rancabolang", "Rancanumpang"], "Kiaracondong": ["Babakan Sari", "Babakan Surabaya", "Cicaheum", "Kebon Jayanti", "Kebon Kangkung", "Sukapura"], "Lengkong": ["Burangrang", "Cijagra", "Cikawao", "Lingkar Selatan", "Malabar", "Paledang", "Turangga"], "Mandalajati": ["Jatihandap", "Karang Pamulang", "Pasir Impun", "Sindang Jaya"], "Panyileukan": ["Cipadung Kidul", "Cipadung Kulon", "Cipadung Wetan", "Mekar Mulya"], "Rancasari": ["Cipamokolan", "Darwati", "Manjahlega", "Mekarjaya"], "Regol": ["Ancol", "Balonggede", "Cigereleng", "Ciseureuh", "Ciateul", "Pungkur"], "Sukajadi": ["Cipedes", "Pasteur", "Sukabungah", "Sukagalih", "Sukawarna"], "Sukasari": ["Gegerkalong", "Isola", "Sarijadi", "Sukarasa"], "Sumur Bandung": ["Babakan Ciamis", "Braga", "Kebon Pisang", "Merdeka"], "Ujungberung": ["Cigending", "Pasanggrahan", "Pasir Endah", "Pasir Jati", "Pasir Wangi", "Pasir Biru"]};
+window.V13_WILAYAH=WILAYAH;
 const $=id=>document.getElementById(id);
 const rupiah=n=>'Rp'+Math.round(Number(n)||0).toLocaleString('id-ID');
 function norm(v){return String(v??'').trim();}
@@ -566,21 +604,12 @@ function renderODP(){
  el.querySelectorAll('.btn-yellow').forEach(b=>b.onclick=()=>{let old=a[+b.dataset.i],nv=prompt('Nama ODP baru:',old);if(!norm(nv)||nv===old)return;let x=JSON.parse(localStorage.getItem('introvision_odps_v13')||'[]').filter(v=>v!==old);x.push(norm(nv));localStorage.setItem('introvision_odps_v13',JSON.stringify(x));(window.customers||[]).forEach(c=>{if(norm(c.odp)===old)c.odp=norm(nv)});if(window.renderCustomers)window.renderCustomers();renderODP();});
  el.querySelectorAll('.btn-pink').forEach(b=>b.onclick=()=>{let old=a[+b.dataset.i];if(!confirm('Hapus '+old+' dari daftar ODP?'))return;let x=JSON.parse(localStorage.getItem('introvision_odps_v13')||'[]').filter(v=>v!==old);localStorage.setItem('introvision_odps_v13',JSON.stringify(x));renderODP();});
 }
-function addCalc(){
- if($('v13CalcBox'))return;
- let anchor=$('fPaket')||$('fTotal')||$('fJatuhTempo');if(!anchor)return;
- let box=document.createElement('div');box.id='v13CalcBox';box.className='card';box.style.margin='12px 0';
- box.innerHTML='<h3>Perhitungan Paket</h3><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px"><label>Nama Paket<input id="v13Paket" placeholder="Contoh: Paket 30 Mbps"></label><label>Harga Paket<input id="v13Harga" type="number" min="0" value="0"></label><label>Discount (%)<input id="v13Disc" type="number" min="0" max="100" step="0.01" value="0"></label><label>Nilai Discount<input id="v13DiscNom" readonly></label><label>Biaya Instalasi<input id="v13Instalasi" type="number" min="0" value="0"></label><label><b>Total Otomatis</b><input id="v13Grand" readonly></label></div><div id="v13Formula" style="margin-top:8px;color:#555"></div>';
- anchor.parentElement.parentElement?.after(box);
- ['v13Harga','v13Disc','v13Instalasi'].forEach(id=>$(id)?.addEventListener('input',calc));
- function calc(){let h=+$('v13Harga').value||0,d=+$('v13Disc').value||0,i=+$('v13Instalasi').value||0,n=h*d/100,t=h-n+i;$('v13DiscNom').value=rupiah(n);$('v13Grand').value=rupiah(t);$('v13Formula').textContent=rupiah(h)+' âˆ’ '+rupiah(n)+' + '+rupiah(i)+' = '+rupiah(t);}
- calc();
-}
+function addCalc(){ return; }
 function typedFilter(id){
  let el=$(id);if(!el||el.tagName==='INPUT')return;
  let x=document.createElement('input');x.id=id;x.placeholder='Ketik untuk mencari...';x.className=el.className;x.oninput=()=>{if(window.customerPage!==undefined)window.customerPage=1;if(window.renderCustomers)window.renderCustomers();};el.replaceWith(x);
 }
-function refresh(){addODPPanel();addCalc();['odpFilter','wilayahFilter','statusFilter','paketFilter','marketingFilter','kotaFilter','kecFilter','desaFilter'].forEach(typedFilter);}
+function refresh(){addODPPanel();addCalc();['fOdp','fWilayah','fStatus','fPaket','fMarketing','fKota','fKec','fDesa'].forEach(typedFilter);}
 new MutationObserver(refresh).observe(document.body,{childList:true,subtree:true});
 setTimeout(refresh,300);
 })();
