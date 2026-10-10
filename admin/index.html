@@ -680,11 +680,42 @@ function renderODP(){
 function addCalc(){ return; }
 function typedFilter(id){
  let el=$(id);if(!el||el.tagName==='INPUT')return;
- let x=document.createElement('input');x.id=id;x.placeholder='Ketik untuk mencari...';x.className=el.className;x.oninput=()=>{if(window.customerPage!==undefined)window.customerPage=1;if(window.renderCustomers)window.renderCustomers();};el.replaceWith(x);
+ let x=document.createElement('input');x.id=id;x.placeholder='Ketik untuk mencari...';x.className=el.className;x.oninput=()=>{try{if(window.customerPage!==undefined)window.customerPage=1;if(typeof render==='function')render();}catch(e){console.error('Filter error',e);}};el.replaceWith(x);
 }
 function refresh(){addODPPanel();addCalc();['fOdp','fWilayah','fStatus','fPaket','fMarketing','fKota','fKec','fDesa'].forEach(typedFilter);}
 new MutationObserver(refresh).observe(document.body,{childList:true,subtree:true});
 setTimeout(refresh,300);
+})();
+</script>
+
+<script id="introvision-v13-emergency-bind">
+(function(){
+  function bind(){
+    const add=document.getElementById('addBtn');
+    if(add && !add.dataset.v13bound){
+      add.dataset.v13bound='1';
+      add.addEventListener('click',function(e){ e.preventDefault(); try{ openAdd(); }catch(err){ console.error(err); alert('Form Tambah Pelanggan gagal dibuka: '+err.message); } });
+    }
+    const ids=['q','fWilayah','fStatus','fOdp','fPaket','fMarketing','fKota','fKec','fDesa'];
+    ids.forEach(function(id){
+      const el=document.getElementById(id);
+      if(el && !el.dataset.v13filterbound){
+        el.dataset.v13filterbound='1';
+        el.addEventListener('input',function(){ try{ if(typeof render==='function') render(); }catch(err){ console.error('Filter error',err); } });
+      }
+    });
+    const tbody=document.getElementById('tbody');
+    if(tbody && !tbody.dataset.v13bound){
+      tbody.dataset.v13bound='1';
+      tbody.addEventListener('click',function(e){
+        const edit=e.target.closest('.editBtn');
+        if(edit){ e.preventDefault(); try{openAdd(edit.dataset.id);}catch(err){console.error(err);alert('Edit pelanggan gagal dibuka: '+err.message);} }
+      });
+    }
+  }
+  bind();
+  setTimeout(bind,500);
+  setTimeout(bind,1500);
 })();
 </script>
 </body>
