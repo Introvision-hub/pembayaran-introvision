@@ -154,7 +154,14 @@ table{width:100%;border-collapse:collapse;min-width:950px;background:#fff} th,td
  <h2>WhatsApp</h2>
  <div class="muted">Pilih pelanggan, pilih template, lalu buka WhatsApp dengan pesan yang sudah terisi. Ini bukan WhatsApp Blast API.</div>
  <div class="grid" style="margin-top:14px">
- <div class="field"><label>Pelanggan</label><select id="waCustomer"></select></div>
+ <div class="field">
+  <label>Cari Pelanggan (Nama / ID)</label>
+  <input id="waSearch" type="text" placeholder="Ketik nama atau nomor pelanggan...">
+</div>
+<div class="field">
+  <label>Pelanggan</label>
+  <select id="waCustomer"></select>
+</div>
  <div class="field"><label>Template Pesan</label>
  <select id="waTemplate">
  <option value="tagihan">Pengingat Tagihan</option>
@@ -528,11 +535,30 @@ function renderBills(){
  }).join('');
 }
 function fillWaCustomers(){
- if(!$('waCustomer')) return;
- const old=$('waCustomer').value;
- $('waCustomer').innerHTML=customers.map(c=>'<option value="'+esc(c.id)+'">'+esc(c.nama)+' '+esc(c.telepon||'-')+'</option>').join('');
- if(old && customers.some(c=>String(c.id)===old)) $('waCustomer').value=old;
- updateWaMessage();
+  if(!$('waCustomer')) return;
+  const search=String($('waSearch')?.value||'').trim().toLowerCase();
+  const old=$('waCustomer').value;
+
+  const rows=customers.filter(c=>{
+    if(!search) return true;
+    const id=String(c.id||'').toLowerCase();
+    const nama=String(c.nama||'').toLowerCase();
+    return id.includes(search) || nama.includes(search);
+  });
+
+  $('waCustomer').innerHTML=rows.map(c=>
+    '<option value="'+esc(c.id)+'">'+
+    esc(c.nama)+' | ID: '+esc(c.id)+' | '+esc(c.telepon||'-')+
+    '</option>'
+  ).join('');
+
+  if(old && rows.some(c=>String(c.id)===old)){
+    $('waCustomer').value=old;
+  } else if(rows.length){
+    $('waCustomer').value=String(rows[0].id);
+  }
+
+  updateWaMessage();
 }
 function normalizePhone(phone){
  let n=String(phone||'').replace(/\D/g,'');
@@ -670,6 +696,7 @@ $('billSearch').addEventListener('input',renderBills);
 $('billStatusFilter').addEventListener('change',renderBills);
 $('billBody').addEventListener('click',e=>{const b=e.target.closest('.payBtn2');if(b)openPayment(b.dataset.id);});
 $('waCustomer').addEventListener('change',updateWaMessage);
+$('waSearch').addEventListener('input',fillWaCustomers);
 $('waTemplate').addEventListener('change',updateWaMessage);
 $('waMessage').addEventListener('input',()=>{if($('waTemplate').value==='custom')$('waHint').textContent='Pesan custom siap dikirim.';});
 $('waOpen').addEventListener('click',openWhatsApp);
