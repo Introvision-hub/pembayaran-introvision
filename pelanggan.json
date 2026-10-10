@@ -14,7 +14,7 @@
     "tanggal_daftar": "01/10/2026",
     "tanggal_aktif": "01/10/2026",
     "tanggal_berakhir": "01/11/2026",
-    "jatuh_tempo": "01/10/2026",
+    "jatuh_tempo": "01/11/2026",
     "status": "AKTIF",
     "alamat": "Jl ciparay tengah RT04 RW 05 NO13",
     "desa": "Cibaduyut Kidul",
@@ -23,11 +23,12 @@
     "marketing": "",
     "periode": "",
     "payment": {
-      "status": "BELUM BAYAR",
-      "tanggal": "",
-      "metode": "",
+      "status": "LUNAS",
+      "tanggal": "2026-11-01",
+      "metode": "Transfer BCA",
       "referensi": ""
-    }
+    },
+    "status_pembayaran": "LUNAS"
   },
   {
     "id": "10389383",
