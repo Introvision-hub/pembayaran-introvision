@@ -164,6 +164,7 @@ table{width:100%;border-collapse:collapse;min-width:950px;background:#fff} th,td
             </select>
           </div>
         </div>
+        <div class="field" style="margin-top:12px"><label>Link Cek Tagihan Pelanggan</label><input id="waCustomerLink" readonly></div>
         <div class="field" style="margin-top:12px"><label>Pesan</label><textarea id="waMessage" rows="8"></textarea></div>
         <div class="actions">
           <button id="waOpen" class="btn green">Buka WhatsApp</button>
@@ -539,6 +540,12 @@ function normalizePhone(phone){
   if(n.startsWith('8')) n='62'+n;
   return n;
 }
+function customerPortalUrl(c){
+  return window.location.origin + window.location.pathname.replace(/admin\/?$/,'') + '?id=' + encodeURIComponent(String(c.id||''));
+}
+function customerPortalUrl(c){
+  return window.location.origin + window.location.pathname.replace(/admin\/?$/,'') + '?id=' + encodeURIComponent(String(c.id||''));
+}
 function updateWaMessage(){
   if(!$('waCustomer')) return;
   const c=customers.find(x=>String(x.id)===$('waCustomer').value)||customers[0];
@@ -546,13 +553,36 @@ function updateWaMessage(){
   const p=paymentInfo(c);
   const t=$('waTemplate').value;
   const company=$('setCompany')?.value||'INTROVISION';
+  const link=customerPortalUrl(c);
+  if($('waCustomerLink')) $('waCustomerLink').value=link;
   let text='';
-  if(t==='tagihan') text='Halo '+(c.nama||'Bapak/Ibu')+', kami dari '+company+'.\\n\\nInformasi tagihan internet Anda:\\nTagihan: '+rupiah(c.total)+'\\nJatuh tempo: '+(c.jatuh_tempo||'-')+'\\nStatus: '+p.status+'\\n\\nMohon melakukan pembayaran sebelum jatuh tempo. Terima kasih.';
-  else if(t==='lunas') text='Halo '+(c.nama||'Bapak/Ibu')+', pembayaran tagihan internet sebesar '+rupiah(c.total)+' telah kami catat pada '+(p.date||new Date().toISOString().slice(0,10))+'. Terima kasih.';
-  else if(t==='jatuh') text='Halo '+(c.nama||'Bapak/Ibu')+', mengingatkan bahwa tagihan internet sebesar '+rupiah(c.total)+' jatuh tempo pada '+(c.jatuh_tempo||'-')+'. Terima kasih.';
+  if(t==='tagihan') text=`Halo ${c.nama||'Bapak/Ibu'}, kami dari ${company}.
+
+Informasi tagihan internet Anda:
+No. Pelanggan: ${c.id||'-'}
+Tagihan: ${rupiah(c.total)}
+Jatuh tempo: ${c.jatuh_tempo||'-'}
+Status: ${p.status}
+
+Silakan cek detail tagihan dan pembayaran melalui link berikut:
+${link}
+
+Mohon melakukan pembayaran sebelum jatuh tempo. Terima kasih.`;
+  else if(t==='lunas') text=`Halo ${c.nama||'Bapak/Ibu'}, pembayaran tagihan internet sebesar ${rupiah(c.total)} telah kami catat pada ${p.date||new Date().toISOString().slice(0,10)}.
+
+No. Pelanggan: ${c.id||'-'}
+Cek detail tagihan: ${link}
+
+Terima kasih.`;
+  else if(t==='jatuh') text=`Halo ${c.nama||'Bapak/Ibu'}, mengingatkan bahwa tagihan internet sebesar ${rupiah(c.total)} jatuh tempo pada ${c.jatuh_tempo||'-'}.
+
+No. Pelanggan: ${c.id||'-'}
+Cek tagihan dan pembayaran: ${link}
+
+Terima kasih.`;
   else text=$('waMessage').value||'';
   $('waMessage').value=text;
-  $('waHint').textContent='Nomor tujuan: '+(c.telepon||'-')+' â€¢ Status pembayaran: '+p.status;
+  $('waHint').textContent='Nomor tujuan: '+(c.telepon||'-')+' | Status: '+p.status+' | Link cek tagihan siap digunakan.';
 }
 function openWhatsApp(){
   const c=customers.find(x=>String(x.id)===$('waCustomer').value); if(!c)return;
