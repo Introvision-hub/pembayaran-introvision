@@ -5544,7 +5544,7 @@
     "telepon": "0881022834686",
     "paket": "PAKET BASIC 30 MBPS CIBAY",
     "total": "120000",
-    "jatuh_tempo": "10/10/2026",
+    "jatuh_tempo": "10/11/2026",
     "hari_jatuh_tempo": 10,
     "status": "AKTIF",
     "wilayah": "Cibaduyut",
@@ -5554,7 +5554,25 @@
     "kota": "",
     "odp": "ODP DEIS",
     "marketing": "Rohmat Sawaludin",
-    "periode": "10/09/2026 s/d 09/10/2026"
+    "periode": "10/09/2026 s/d 09/10/2026",
+    "payment": {
+      "status": "LUNAS",
+      "tanggal": "2026-10-10",
+      "metode": "Tunai",
+      "referensi": ""
+    },
+    "status_pembayaran": "LUNAS",
+    "status_tagihan": "LUNAS",
+    "tanggal_bayar": "2026-10-10",
+    "metode_bayar": "Tunai",
+    "riwayat_pembayaran": [
+      {
+        "tanggal": "10/10/2026",
+        "nominal": 120000,
+        "metode": "Tunai",
+        "referensi": ""
+      }
+    ]
   },
   {
     "id": "10390136",
