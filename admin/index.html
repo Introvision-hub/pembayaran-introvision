@@ -181,18 +181,41 @@ table{width:100%;border-collapse:collapse;min-width:950px;background:#fff} th,td
  </div>
  </section>
 
- <section id="laporan" class="page">
- <div class="panel">
- <h2>Laporan</h2>
- <div class="cards" style="margin-top:12px">
- <div class="card"><small>Total Pelanggan</small><div class="num" id="rTotal">0</div></div>
- <div class="card"><small>Lunas</small><div class="num" id="rLunas">0</div></div>
- <div class="card"><small>Belum Bayar</small><div class="num" id="rBelum">0</div></div>
- <div class="card"><small>Nilai Tagihan</small><div class="num" id="rNilai">Rp 0</div></div>
- </div>
- <div class="actions"><button id="reportCsv" class="btn green">Export Laporan CSV</button></div>
- </div>
- </section>
+<section id="laporan" class="page">
+  <div class="panel">
+    <h2>Laporan</h2>
+    <div class="cards" style="margin-top:12px">
+      <div class="card"><small>Total Pelanggan</small><div class="num" id="rTotal">0</div></div>
+      <div class="card"><small>Lunas</small><div class="num" id="rLunas">0</div></div>
+      <div class="card"><small>Belum Bayar</small><div class="num" id="rBelum">0</div></div>
+      <div class="card"><small>Nilai Tagihan</small><div class="num" id="rNilai">Rp 0</div></div>
+      <div class="card"><small>Total Pembayaran Masuk</small><div class="num" id="rMasuk">Rp 0</div></div>
+      <div class="card"><small>Jumlah Transaksi</small><div class="num" id="rTransaksi">0</div></div>
+    </div>
+
+    <div class="grid" style="margin-top:14px">
+      <div class="field"><label>Cari Nama / ID</label><input id="rSearch" type="text" placeholder="Ketik nama atau nomor pelanggan..."></div>
+      <div class="field"><label>Status</label><select id="rStatus"><option value="">SEMUA</option><option value="LUNAS">LUNAS</option><option value="BELUM BAYAR">BELUM BAYAR</option></select></div>
+      <div class="field"><label>Wilayah</label><select id="rWilayah"><option value="">SEMUA</option></select></div>
+      <div class="field"><label>Bulan Pembayaran</label><input id="rBulan" type="month"></div>
+    </div>
+
+    <div class="actions" style="margin-top:14px">
+      <button id="reportCsv" class="btn green">Export Laporan CSV</button>
+    </div>
+
+    <div class="table-wrap" style="margin-top:14px">
+      <table>
+        <thead><tr>
+          <th>No</th><th>ID</th><th>Nama</th><th>Wilayah</th><th>Tagihan</th>
+          <th>Jatuh Tempo</th><th>Status</th><th>Tanggal Bayar</th><th>Metode</th>
+        </tr></thead>
+        <tbody id="reportBody"></tbody>
+      </table>
+    </div>
+    <div id="reportEmpty" class="muted" style="display:none;margin-top:10px">Tidak ada data laporan sesuai filter.</div>
+  </div>
+</section>
 
  <section id="pengaturan" class="page">
  <div class="panel">
@@ -379,15 +402,106 @@ function openPayment(id) {
  $('cancelPay').onclick=()=>openDetail(id);
  $('modal').classList.add('show');
 }
-function savePayment(id){
- const c=customers.find(x=>String(x.id)===String(id)); if(!c)return;
- c.payment={status:$('pStatus').value,tanggal:$('pDate').value,metode:$('pMethod').value,referensi:$('pRef').value.trim()};
- if(c.payment.status==='LUNAS') c.status_pembayaran='LUNAS'; else c.status_pembayaran='BELUM BAYAR';
- try{
- const all={}; customers.forEach(x=>{if(x.payment)all[x.id]=x.payment;});
- localStorage.setItem('introvision_payments_v11',JSON.stringify(all));
- }catch(e){}
- closeModal(); render();
+function nextDueDate(v){
+  const x=String(v||'').trim();
+  let y=0,m=0,d=0;
+  if(/^\d{4}-\d{2}-\d{2}$/.test(x)){
+    const a=x.split('-').map(Number); y=a[0]; m=a[1]; d=a[2];
+  }else{
+    const a=x.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})$/);
+    if(!a)return x;
+    d=Number(a[1]); m=Number(a[2]); y=Number(a[3]);
+  }
+  let ny=y,nm=m+1;
+  if(nm>12){nm=1;ny++;}
+  const lastDay=new Date(ny,nm,0).getDate();
+  const nd=Math.min(d,lastDay);
+  if(/^\d{4}-\d{2}-\d{2}$/.test(x))
+    return ny+'-'+String(nm).padStart(2,'0')+'-'+String(nd).padStart(2,'0');
+  return String(nd).padStart(2,'0')+'/'+String(nm).padStart(2,'0')+'/'+ny;
+}
+
+async function savePayment(id){
+  const c=customers.find(x=>String(x.id)===String(id));
+  if(!c)return;
+
+  const newStatus=$('pStatus').value;
+  const tanggalBayar=$('pDate').value;
+  const metode=$('pMethod').value;
+  const referensi=$('pRef').value.trim();
+
+  const oldDue=c.jatuh_tempo;
+
+  c.payment={
+    status:newStatus,
+    tanggal:tanggalBayar,
+    metode:metode,
+    referensi:referensi
+  };
+
+  c.status_pembayaran=newStatus==='LUNAS'?'LUNAS':'BELUM BAYAR';
+  c.status_tagihan=newStatus==='LUNAS'?'LUNAS':'BELUM BAYAR';
+
+  if(newStatus==='LUNAS'){
+
+    // Jatuh tempo otomatis maju 1 bulan
+    c.jatuh_tempo=nextDueDate(oldDue);
+
+    // Simpan tanggal dan metode pembayaran
+    c.tanggal_bayar=tanggalBayar;
+    c.metode_bayar=metode;
+
+    // Simpan riwayat pembayaran untuk halaman pelanggan
+    c.riwayat_pembayaran=Array.isArray(c.riwayat_pembayaran)
+      ? c.riwayat_pembayaran
+      : [];
+
+    const tanggalRiwayat=String(tanggalBayar||'').match(/^(\d{4})-(\d{2})-(\d{2})$/)
+      ? String(tanggalBayar).slice(8,10)+'/'+String(tanggalBayar).slice(5,7)+'/'+String(tanggalBayar).slice(0,4)
+      : String(tanggalBayar||'');
+
+    c.riwayat_pembayaran.unshift({
+      tanggal:tanggalRiwayat,
+      nominal:Number(c.total||0),
+      metode:metode,
+      referensi:referensi
+    });
+  }
+
+  try{
+
+    // Simpan pembayaran untuk tampilan admin
+    const all={};
+    customers.forEach(x=>{
+      if(x.payment)all[x.id]=x.payment;
+    });
+
+    localStorage.setItem(
+      'introvision_payments_v11',
+      JSON.stringify(all)
+    );
+
+    // Simpan seluruh perubahan ke pelanggan.json GitHub
+    await persistCustomersToGitHub();
+
+    closeModal();
+    render();
+
+    alert(
+      newStatus==='LUNAS'
+      ? 'Pembayaran berhasil dicatat. Status LUNAS dan jatuh tempo sudah maju ke bulan berikutnya.'
+      : 'Perubahan pembayaran berhasil disimpan.'
+    );
+
+  }catch(e){
+
+    alert(
+      'Perubahan belum tersimpan ke GitHub. '+
+      e.message
+    );
+
+    render();
+  }
 }
 function dateInputValue(v){
  const x=String(v||'').trim();
@@ -514,7 +628,68 @@ async function saveAdd(editId) {
 
 function closeModal() { $('modal').classList.remove('show'); }
 
-function renderReports(){ const paid=customers.filter(c=>paymentInfo(c).status==='LUNAS').length; $('rTotal').textContent=customers.length; $('rLunas').textContent=paid; $('rBelum').textContent=customers.length-paid; $('rNilai').textContent=rupiah(customers.reduce((a,c)=>a+Number(c.total||0),0)); }
+ function renderReports(){
+  const search=String($('rSearch')?.value||'').trim().toLowerCase();
+  const statusFilter=String($('rStatus')?.value||'');
+  const wilayahFilter=String($('rWilayah')?.value||'').toLowerCase();
+  const bulanFilter=String($('rBulan')?.value||'');
+
+  const rows=customers.filter(c=>{
+    const p=paymentInfo(c);
+    const id=String(c.id||'').toLowerCase();
+    const nama=String(c.nama||'').toLowerCase();
+    const wilayah=String(c.wilayah||'').toLowerCase();
+    const tanggal=String(p.date||'');
+    if(search && !id.includes(search) && !nama.includes(search)) return false;
+    if(statusFilter && p.status!==statusFilter) return false;
+    if(wilayahFilter && wilayah!==wilayahFilter) return false;
+
+    if(bulanFilter){
+      let ym='';
+      if(/^\d{4}-\d{2}-\d{2}$/.test(tanggal)) ym=tanggal.slice(0,7);
+      else{
+        const m=tanggal.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})$/);
+        if(m) ym=m[3]+'-'+String(m[2]).padStart(2,'0');
+      }
+      if(ym!==bulanFilter)return false;
+    }
+    return true;
+  });
+
+  const paid=rows.filter(c=>paymentInfo(c).status==='LUNAS');
+  const nilaiTagihan=rows.reduce((a,c)=>a+Number(c.total||0),0);
+  const pembayaranMasuk=paid.reduce((a,c)=>a+Number(c.total||0),0);
+
+  $('rTotal').textContent=rows.length;
+  $('rLunas').textContent=paid.length;
+  $('rBelum').textContent=rows.length-paid.length;
+  $('rNilai').textContent=rupiah(nilaiTagihan);
+  $('rMasuk').textContent=rupiah(pembayaranMasuk);
+  $('rTransaksi').textContent=paid.length;
+
+  const wilayahValues=[...new Set(customers.map(c=>String(c.wilayah||'').trim()).filter(Boolean))]
+    .sort((a,b)=>a.localeCompare(b,'id'));
+  if($('rWilayah')){
+    const current=$('rWilayah').value;
+    $('rWilayah').innerHTML='<option value="">SEMUA</option>'+
+      wilayahValues.map(v=>'<option value="'+esc(v)+'">'+esc(v)+'</option>').join('');
+    const found=wilayahValues.find(v=>v.toLowerCase()===current.toLowerCase());
+    if(found)$('rWilayah').value=found;
+  }
+
+  if($('reportBody')){
+    $('reportBody').innerHTML=rows.map((c,i)=>{
+      const p=paymentInfo(c);
+      return '<tr>'+
+        '<td>'+(i+1)+'</td><td>'+esc(c.id)+'</td><td><b>'+esc(c.nama)+'</b></td>'+
+        '<td>'+esc(c.wilayah||'-')+'</td><td>'+rupiah(c.total)+'</td>'+
+        '<td>'+esc(c.jatuh_tempo||'-')+'</td>'+
+        '<td><span class="badge '+(p.status==='LUNAS'?'lunas':'belum')+'">'+esc(p.status)+'</span></td>'+
+        '<td>'+esc(p.date||'-')+'</td><td>'+esc(p.method||'-')+'</td></tr>';
+    }).join('');
+  }
+  if($('reportEmpty'))$('reportEmpty').style.display=rows.length?'none':'block';
+}
 function renderBills(){
  const q=($('billSearch')?.value||'').toLowerCase().trim();
  const fs=$('billStatusFilter')?.value||'';
@@ -669,6 +844,10 @@ document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',(
  if(b.dataset.page==='pengaturan') loadSettings();
 }));
 ['q','fWilayah','fStatus','fOdp','fPaket','fMarketing','fKota','fKec','fDesa'].forEach(id=>$(id).addEventListener('input',render));
+ ['rSearch','rStatus','rWilayah','rBulan'].forEach(id=>{
+  if($(id))$(id).addEventListener('input',renderReports);
+  if($(id))$(id).addEventListener('change',renderReports);
+});
 // Fallback login handlers are inline on the buttons.
 function localLogin(){
  try{
