@@ -94,5 +94,48 @@ function bayarTagihanSekarang(){
 }
 function copyText(t,m){navigator.clipboard.writeText(t).then(()=>showToast(m)).catch(()=>showToast('Salin nomor secara manual'))}function showToast(m){let t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
 function openQris(){const src=document.getElementById('qrisImage').src;const w=window.open();if(w){w.document.write('<title>QRIS Introvision</title><style>body{margin:0;background:#f3f5f8;display:flex;align-items:center;justify-content:center;min-height:100vh}img{max-width:96vw;max-height:96vh;object-fit:contain;background:#fff}</style><img src="'+src+'" alt="QRIS Introvision">');w.document.close();}}
-function confirmPayment(){let n=document.getElementById('nominal').value;if(!n||Number(n)<=0)return showToast('Masukkan nominal pembayaran');let text='Halo Introvision, saya sudah melakukan pembayaran WiFi sebesar '+formatRupiah(n)+'. Saya akan mengirimkan bukti transfer untuk konfirmasi.';window.open('https://wa.me/6281324091441?text='+encodeURIComponent(text),'_blank')}muatDataPelanggan();
+function confirmPayment(){let n=document.getElementById('nominal').value;if(!n||Number(n)<=0)return showToast('Masukkan nominal pembayaran');let text='Halo Introvision, saya sudah melakukan pembayaran WiFi sebesar '+formatRupiah(n)+'. Saya akan mengirimkan bukti transfer untuk konfirmasi.';window.open('https://wa.me/6281324091441?text='+encodeURIComponent(text),'_blank')}PATCH INDEX.HTML UTAMA - LINK PELANGGAN OTOMATIS
+
+Di file:
+pembayaran-introvision/index.html
+
+Cari bagian paling bawah yang saat ini berakhir seperti:
+
+function confirmPayment(){...}muatDataPelanggan();
+
+JANGAN hapus fungsi confirmPayment. Cukup ubah bagian paling akhir:
+muatDataPelanggan();
+
+menjadi:
+
+async function bukaPelangganDariLink(){
+  const id = new URLSearchParams(window.location.search).get('id');
+  if(!id) return;
+
+  const input = document.getElementById('id');
+  if(input) input.value = id;
+
+  await muatDataPelanggan();
+
+  const btn = document.querySelector('.menu-btn');
+  if(btn) showSection('cek', btn);
+
+  cekTagihan();
+}
+
+muatDataPelanggan().then(bukaPelangganDariLink);
+
+HASIL:
+Link seperti:
+https://introvision-hub.github.io/pembayaran-introvision/?id=10389976
+
+akan otomatis:
+1. Membuka halaman pelanggan.
+2. Mengisi No. Pelanggan 10389976.
+3. Membuka menu Cek Tagihan.
+4. Menjalankan pengecekan otomatis.
+5. Menampilkan nama, paket, tagihan, jatuh tempo, dan status pelanggan.
+
+Setelah selesai, Commit changes dengan pesan:
+Tambah Link Cek Tagihan Pelanggan
 </script></body></html>
