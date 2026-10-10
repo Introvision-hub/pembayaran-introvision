@@ -95,4 +95,34 @@ function bayarTagihanSekarang(){
 function copyText(t,m){navigator.clipboard.writeText(t).then(()=>showToast(m)).catch(()=>showToast('Salin nomor secara manual'))}function showToast(m){let t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)}
 function openQris(){const src=document.getElementById('qrisImage').src;const w=window.open();if(w){w.document.write('<title>QRIS Introvision</title><style>body{margin:0;background:#f3f5f8;display:flex;align-items:center;justify-content:center;min-height:100vh}img{max-width:96vw;max-height:96vh;object-fit:contain;background:#fff}</style><img src="'+src+'" alt="QRIS Introvision">');w.document.close();}}
 function confirmPayment(){let n=document.getElementById('nominal').value;if(!n||Number(n)<=0)return showToast('Masukkan nominal pembayaran');let text='Halo Introvision, saya sudah melakukan pembayaran WiFi sebesar '+formatRupiah(n)+'. Saya akan mengirimkan bukti transfer untuk konfirmasi.';window.open('https://wa.me/6281324091441?text='+encodeURIComponent(text),'_blank')}muatDataPelanggan();
+</script>
+<script>
+(function () {
+  async function bukaPelangganDariLink() {
+    const params = new URLSearchParams(window.location.search);
+    const idLink = (params.get('id') || '').trim();
+
+    // Kalau URL tidak memakai ?id=, halaman bekerja seperti biasa.
+    if (!idLink) return;
+
+    // Tunggu pelanggan.json selesai dimuat.
+    await muatDataPelanggan();
+
+    const input = document.getElementById('id');
+    if (!input) return;
+
+    input.value = idLink;
+
+    // Masuk otomatis ke menu Cek Tagihan.
+    const btnCek = document.querySelector('.menu-btn:nth-child(1)');
+    if (btnCek) {
+      showSection('cek', btnCek);
+    }
+
+    // Tampilkan data pelanggan dari ID pada URL.
+    cekTagihan();
+  }
+
+  window.addEventListener('DOMContentLoaded', bukaPelangganDariLink);
+})();
 </script></body></html>
