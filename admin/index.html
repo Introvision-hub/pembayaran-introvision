@@ -24,7 +24,7 @@ button,input,select,textarea{font:inherit}
 .field input,.field select,.field textarea{width:100%;border:1px solid #d0d5dd;border-radius:7px;padding:10px;background:#fff}
 .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
 .btn{border:0;border-radius:7px;padding:10px 13px;font-weight:800;cursor:pointer}
-.primary{background:#1769e0;color:#fff} .green{background:#12a150;color:#fff} .yellow{background:#f5c542;color:#1b1b1b} .red{background:#e5484d;color:#fff} .gray{background:#eef2f6;color:#344054}
+.primary{background:#1769e0;color:#fff} .blue{background:#2563eb;color:#fff} .green{background:#12a150;color:#fff} .yellow{background:#f5c542;color:#1b1b1b} .red{background:#e5484d;color:#fff} .gray{background:#eef2f6;color:#344054}
 .btn:disabled{opacity:.55;cursor:not-allowed}
 .tablewrap{overflow:auto;border:1px solid #e5e7eb;border-radius:8px}
 table{width:100%;border-collapse:collapse;min-width:950px;background:#fff} th,td{padding:9px 10px;border-bottom:1px solid #eaecf0;text-align:left;font-size:12px;white-space:nowrap} th{background:#f8fafc;color:#475467}
@@ -51,16 +51,16 @@ table{width:100%;border-collapse:collapse;min-width:950px;background:#fff} th,td
       <div><h2 style="margin:0">INTROVISION ADMIN</h2><div class="muted">High Speed Internet Connection</div></div>
     </div>
     <h3>Akses Administrator</h3>
-    <p class="aktif">Login GitHub hanya untuk sinkronisasi. <b>348 pelanggan tetap dimuat dari data bawaan</b>, jadi halaman tidak akan kosong walaupun GitHub gagal dibaca.</p>
+    <p class="muted">Login GitHub hanya untuk sinkronisasi. <b>348 pelanggan tetap dimuat dari data bawaan</b>, jadi halaman tidak akan kosong walaupun GitHub gagal dibaca.</p>
     <div class="grid">
       <div class="field"><label>GitHub Username / Owner</label><input id="owner" value="Introvision-hub"></div>
       <div class="field"><label>Nama Repository</label><input id="repo" value="pembayaran-introvision"></div>
       <div class="field"><label>Branch</label><input id="branch" value="main"></div>
-      <div class="field"><label>GitHub Personal Access Token</label><input id="token" type="password" autocomplete="on"></div>
+      <div class="field"><label>GitHub Personal Access Token</label><input id="token" type="password" autocomplete="off"></div>
     </div>
     <div class="actions">
-      <button id="loginBtn" class="btn primary">Masuk & Muat Data</button>
-      <button id="localBtn" class="btn gray">Gunakan Data Lokal</button>
+      <button id="loginBtn" type="button" class="btn primary" onclick="login()">Masuk &amp; Muat Data</button>
+      <button id="localBtn" type="button" class="btn gray" onclick="localLogin()">Gunakan Data Lokal</button>
     </div>
     <div id="loginMsg" class="loginmsg"></div>
   </div>
@@ -286,6 +286,7 @@ function render() {
       '<td>'+esc(c.paket)+'</td><td>'+rupiah(c.total)+'</td><td>'+esc(c.jatuh_tempo)+'</td>'+
       '<td><span class="badge '+cls+'">'+esc(p.status)+'</span></td>'+
       '<td><button class="btn gray viewBtn" data-id="'+esc(c.id)+'">Detail</button> '+
+      '<button class="btn blue editBtn" data-id="'+esc(c.id)+'">Edit</button> '+
       '<button class="btn '+(p.status==='LUNAS'?'yellow':'green')+' payBtn" data-id="'+esc(c.id)+'">'+(p.status==='LUNAS'?'Lihat Bayar':'Catat Bayar')+'</button></td></tr>';
   }).join('');
   $('empty').style.display=rows.length?'none':'block';
@@ -380,33 +381,67 @@ function savePayment(id){
   }catch(e){}
   closeModal(); render();
 }
-function openAdd() {
+function dateInputValue(v){
+  const x=String(v||'').trim();
+  if(!x)return '';
+  if(/^\d{4}-\d{2}-\d{2}$/.test(x))return x;
+  const m=x.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})$/);
+  return m ? m[3]+'-'+String(m[2]).padStart(2,'0')+'-'+String(m[1]).padStart(2,'0') : '';
+}
+function dateDisplayValue(v){
+  const x=String(v||'').trim();
+  if(!x)return '';
+  const m=x.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  return m ? m[3]+'/'+m[2]+'/'+m[1] : x;
+}
+async function persistCustomersToGitHub(){
+  if(!github.token || !github.owner || !github.repo) return true;
+  const base='https://api.github.com/repos/'+encodeURIComponent(github.owner)+'/'+encodeURIComponent(github.repo)+'/contents/pelanggan.json';
+  const headers={'Accept':'application/vnd.github+json','Authorization':'Bearer '+github.token,'X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'};
+  const get=await fetch(base+'?ref='+encodeURIComponent(github.branch||'main'),{headers,cache:'no-store'});
+  if(!get.ok) throw new Error('Gagal membaca pelanggan.json (HTTP '+get.status+')');
+  const meta=await get.json();
+  const bytes=new TextEncoder().encode(JSON.stringify(customers,null,2));
+  let binary=''; const chunk=0x8000;
+  for(let i=0;i<bytes.length;i+=chunk) binary+=String.fromCharCode(...bytes.subarray(i,i+chunk));
+  const content=btoa(binary);
+  const put=await fetch(base,{method:'PUT',headers,body:JSON.stringify({message:'Update data pelanggan Introvision',content,sha:meta.sha,branch:github.branch||'main'})});
+  if(!put.ok){const t=await put.text();throw new Error('Gagal menyimpan ke GitHub (HTTP '+put.status+')');}
+  return true;
+}
+function openAdd(editId) {
+  const editing=!!editId;
+  const existing=editing ? customers.find(x=>String(x.id)===String(editId)) : null;
+  if(editing && !existing)return;
   const v13Norm = v => String(v ?? '').trim();
   const v13Rupiah = n => 'Rp' + Math.round(Number(n) || 0).toLocaleString('id-ID');
-  $('modalContent').innerHTML='<h2>Tambah Pelanggan</h2><p class="muted">Nomor pelanggan dibuat otomatis.</p>'+\
-    '<div class="grid">'+\
-    '<div class="field"><label>Nama</label><input id="aNama"></div>'+\
-    '<div class="field"><label>Nomor HP</label><input id="aTelp"></div>'+\
-    '<div class="field"><label>Wilayah</label><select id="aWilayah"></select></div>'+\
-    '<div class="field"><label>ODP</label><select id="aOdp"></select></div>'+\
-    '<div class="field"><label>Kota</label><input id="aKota" value="KOTA BANDUNG" list="v13KotaList"></div>'+\
-    '<div class="field"><label>Kecamatan</label><input id="aKecamatan" list="v13KecList" placeholder="Ketik/pilih kecamatan"></div>'+\
-    '<div class="field"><label>Kelurahan / Desa</label><input id="aDesa" list="v13DesaList" placeholder="Ketik/pilih kelurahan"></div>'+\
-    '<div class="field"><label>Nama Paket</label><input id="aPaket" list="v13PaketList" placeholder="Contoh: Paket 30 Mbps"></div>'+\
-    '<div class="field"><label>Harga Paket</label><input id="aHarga" type="number" min="0" value="0"></div>'+\
-    '<div class="field"><label>Discount (%)</label><input id="aDiscount" type="number" min="0" max="100" step="0.01" value="0"></div>'+\
-    '<div class="field"><label>Nilai Discount</label><input id="aDiscountNom" readonly value="Rp0"></div>'+\
-    '<div class="field"><label>Biaya Instalasi</label><input id="aInstalasi" type="number" min="0" value="0"></div>'+\
-    '<div class="field"><label><b>Total Otomatis</b></label><input id="aTotal" type="number" value="0" readonly></div>'+\
-    '<div class="field"><label>Jatuh Tempo</label><input id="aJatuh" type="date"></div>'+\
-    '<div class="field" style="grid-column:1/-1"><label>Alamat Lengkap</label><textarea id="aAlamat"></textarea></div></div>'+\
-    '<div class="card" style="margin-top:12px;background:#f8fafc"><b>Rincian Tagihan</b><div id="aFormula" style="margin-top:8px;color:#555">Rp0 âˆ’ Rp0 + Rp0 = Rp0</div></div>'+\
-    '<datalist id="v13KotaList"><option value="KOTA BANDUNG"></option></datalist>'+\
-    '<datalist id="v13KecList"></datalist><datalist id="v13DesaList"></datalist><datalist id="v13PaketList"></datalist>'+\
-    '<div class="actions"><button id="saveAdd" class="btn primary">Simpan Pelanggan</button><button id="cancelAdd" class="btn gray">Batal</button></div>';
+  $('modalContent').innerHTML='<h2>'+(editing?'Edit Pelanggan':'Tambah Pelanggan')+'</h2><p class="muted">'+(editing?'Perbaiki data pelanggan lalu simpan perubahan.':'Nomor pelanggan dibuat otomatis.')+'</p>'+
+    '<div class="grid">'+
+    '<div class="field"><label>Nomor Pelanggan</label><input id="aId" readonly></div>'+
+    '<div class="field"><label>Nama</label><input id="aNama"></div>'+
+    '<div class="field"><label>Nomor HP</label><input id="aTelp"></div>'+
+    '<div class="field"><label>Wilayah</label><select id="aWilayah"></select></div>'+
+    '<div class="field"><label>ODP</label><select id="aOdp"></select></div>'+
+    '<div class="field"><label>Kota</label><input id="aKota" value="KOTA BANDUNG" list="v13KotaList"></div>'+
+    '<div class="field"><label>Kecamatan</label><input id="aKecamatan" list="v13KecList" placeholder="Ketik/pilih kecamatan"></div>'+
+    '<div class="field"><label>Kelurahan / Desa</label><input id="aDesa" list="v13DesaList" placeholder="Ketik/pilih kelurahan"></div>'+
+    '<div class="field"><label>Nama Paket</label><input id="aPaket" list="v13PaketList" placeholder="Contoh: Paket 30 Mbps"></div>'+
+    '<div class="field"><label>Harga Paket</label><input id="aHarga" type="number" min="0" value="0"></div>'+
+    '<div class="field"><label>Discount (%)</label><input id="aDiscount" type="number" min="0" max="100" step="0.01" value="0"></div>'+
+    '<div class="field"><label>Nilai Discount</label><input id="aDiscountNom" readonly value="Rp0"></div>'+
+    '<div class="field"><label>Biaya Instalasi</label><input id="aInstalasi" type="number" min="0" value="0"></div>'+
+    '<div class="field"><label><b>Total Otomatis</b></label><input id="aTotal" type="number" value="0" readonly></div>'+
+    '<div class="field"><label>Tanggal Daftar</label><input id="aDaftar" type="date"></div>'+
+    '<div class="field"><label>Tanggal Aktif</label><input id="aAktif" type="date"></div>'+
+    '<div class="field"><label>Tanggal Berakhir</label><input id="aBerakhir" type="date"></div>'+
+    '<div class="field"><label>Jatuh Tempo</label><input id="aJatuh" type="date"></div>'+
+    '<div class="field" style="grid-column:1/-1"><label>Alamat Lengkap</label><textarea id="aAlamat"></textarea></div></div>'+
+    '<div class="card" style="margin-top:12px;background:#f8fafc"><b>Rincian Tagihan</b><div id="aFormula" style="margin-top:8px;color:#555">Rp0 âˆ’ Rp0 + Rp0 = Rp0</div></div>'+
+    '<datalist id="v13KotaList"><option value="KOTA BANDUNG"></option></datalist>'+
+    '<datalist id="v13KecList"></datalist><datalist id="v13DesaList"></datalist><datalist id="v13PaketList"></datalist>'+
+    '<div class="actions"><button id="saveAdd" class="btn primary">'+(editing?'Simpan Perubahan':'Simpan Pelanggan')+'</button><button id="cancelAdd" class="btn gray">Batal</button></div>';
   const fill=(id,field)=>options($(id),field);
-  fill('aWilayah','wilayah');
-  fill('aOdp','odp');
+  fill('aWilayah','wilayah'); fill('aOdp','odp');
   const paketList=[...new Set(customers.map(x=>v13Norm(x.paket)).filter(Boolean))];
   $('v13PaketList').innerHTML=paketList.map(x=>'<option value="'+String(x).replace(/"/g,'&quot;')+'"></option>').join('');
   function fillKec(){
@@ -417,7 +452,6 @@ function openAdd() {
     $('v13DesaList').innerHTML=desa.map(x=>'<option value="'+x.replace(/"/g,'&quot;')+'"></option>').join('');
   }
   $('aKecamatan').addEventListener('input',fillKec);
-  fillKec();
   function calcAdd(){
     const h=+$('aHarga').value||0,d=+$('aDiscount').value||0,i=+$('aInstalasi').value||0;
     const n=h*d/100,t=Math.max(0,h-n+i);
@@ -425,24 +459,49 @@ function openAdd() {
     $('aFormula').textContent=v13Rupiah(h)+' âˆ’ '+v13Rupiah(n)+' + '+v13Rupiah(i)+' = '+v13Rupiah(t);
   }
   ['aHarga','aDiscount','aInstalasi'].forEach(id=>$(id).addEventListener('input',calcAdd));
-  $('saveAdd').onclick=saveAdd; $('cancelAdd').onclick=closeModal;
-  calcAdd();
+  if(existing){
+    $('aId').value=existing.id||''; $('aNama').value=existing.nama||''; $('aTelp').value=existing.telepon||'';
+    $('aWilayah').value=existing.wilayah||''; $('aOdp').value=existing.odp||''; $('aKota').value=existing.kota||'KOTA BANDUNG';
+    $('aKecamatan').value=existing.kecamatan||''; $('aDesa').value=existing.desa||''; $('aPaket').value=existing.paket||'';
+    $('aHarga').value=existing.harga_paket ?? Number(existing.total||0); $('aDiscount').value=existing.discount_persen||0;
+    $('aInstalasi').value=existing.biaya_instalasi||0; $('aDaftar').value=dateInputValue(existing.tanggal_daftar);
+    $('aAktif').value=dateInputValue(existing.tanggal_aktif); $('aBerakhir').value=dateInputValue(existing.tanggal_berakhir); $('aJatuh').value=dateInputValue(existing.jatuh_tempo);
+    $('aAlamat').value=existing.alamat||'';
+  }else{
+    $('aId').value='(dibuat otomatis saat disimpan)';
+  }
+  fillKec(); calcAdd();
+  $('saveAdd').onclick=()=>saveAdd(editId);
+  $('cancelAdd').onclick=closeModal;
   $('modal').classList.add('show');
 }
 
-function saveAdd() {
-  const id=String(Math.floor(10000000+Math.random()*90000000));
+async function saveAdd(editId) {
+  const editing=!!editId;
+  const id=editing ? String(editId) : String(Math.floor(10000000+Math.random()*90000000));
   const harga=Number($('aHarga').value||0), discount=Number($('aDiscount').value||0), instalasi=Number($('aInstalasi').value||0);
   const nilaiDiscount=Math.round(harga*discount/100), total=Math.max(0,harga-nilaiDiscount+instalasi);
-  customers.unshift({
-    id,nama:$('aNama').value.trim()||'Pelanggan Baru',telepon:$('aTelp').value.trim(),
-    wilayah:$('aWilayah').value,odp:$('aOdp').value,paket:$('aPaket').value.trim(),
-    harga_paket:harga,discount_persen:discount,nilai_discount:nilaiDiscount,biaya_instalasi:instalasi,total:total,
-    jatuh_tempo:$('aJatuh').value,status:'AKTIF',alamat:$('aAlamat').value.trim(),
-    desa:$('aDesa').value.trim(),kecamatan:$('aKecamatan').value.trim(),kota:$('aKota').value.trim()||'KOTA BANDUNG',marketing:'',periode:'',
-    payment:{status:'BELUM BAYAR',tanggal:'',metode:'',referensi:''}
-  });
-  closeModal(); fillFilters(); render();
+  const data={
+    id,nama:$('aNama').value.trim()||'Pelanggan Baru',telepon:$('aTelp').value.trim(),wilayah:$('aWilayah').value,odp:$('aOdp').value,
+    paket:$('aPaket').value.trim(),harga_paket:harga,discount_persen:discount,nilai_discount:nilaiDiscount,biaya_instalasi:instalasi,total:total,
+    tanggal_daftar:dateDisplayValue($('aDaftar').value),tanggal_aktif:dateDisplayValue($('aAktif').value),tanggal_berakhir:dateDisplayValue($('aBerakhir').value),
+    jatuh_tempo:dateDisplayValue($('aJatuh').value),status:editing ? (customers.find(x=>String(x.id)===id)?.status||'AKTIF') : 'AKTIF',alamat:$('aAlamat').value.trim(),
+    desa:$('aDesa').value.trim(),kecamatan:$('aKecamatan').value.trim(),kota:$('aKota').value.trim()||'KOTA BANDUNG',
+    marketing:editing ? (customers.find(x=>String(x.id)===id)?.marketing||'') : '',periode:editing ? (customers.find(x=>String(x.id)===id)?.periode||'') : '',
+    payment:editing ? (customers.find(x=>String(x.id)===id)?.payment||{status:'BELUM BAYAR',tanggal:'',metode:'',referensi:''}) : {status:'BELUM BAYAR',tanggal:'',metode:'',referensi:''}
+  };
+  if(editing){ const idx=customers.findIndex(x=>String(x.id)===id); if(idx<0)return; customers[idx]={...customers[idx],...data}; }
+  else customers.unshift(data);
+  try{
+    await persistCustomersToGitHub();
+    closeModal(); fillFilters(); render();
+    $('githubStatus').style.display='block'; $('githubStatus').textContent=github.token?'ðŸŸ¢ Data pelanggan berhasil disimpan ke GitHub.':'ðŸŸ¡ Perubahan tersimpan di browser (login GitHub diperlukan untuk menyimpan ke pelanggan.json).';
+  }catch(e){
+    if(!editing) customers=customers.filter(x=>String(x.id)!==id);
+    else { /* keep edited data visible so user can retry */ }
+    alert('Perubahan belum tersimpan ke GitHub. '+e.message);
+    fillFilters(); render();
+  }
 }
 
 function closeModal() { $('modal').classList.remove('show'); }
@@ -554,12 +613,26 @@ document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',(
   if(b.dataset.page==='pengaturan') loadSettings();
 }));
 ['q','fWilayah','fStatus','fOdp','fPaket','fMarketing','fKota','fKec','fDesa'].forEach(id=>$(id).addEventListener('input',render));
-$('loginBtn').addEventListener('click',login);
-$('localBtn').addEventListener('click',()=>{customers=INITIAL.map(x=>({...x}));github={owner:'',repo:'',branch:'',token:''};showApp();loadSettings();fillWaCustomers();renderBills();renderReports();$('githubStatus').style.display='block';$('githubStatus').textContent='ðŸŸ¢ Data lokal 348 pelanggan aktif.';});
+// Fallback login handlers are inline on the buttons.
+function localLogin(){
+  try{
+    customers=INITIAL.map(x=>({...x}));
+    github={owner:'',repo:'',branch:'',token:''};
+    showApp();
+    loadSettings();
+    fillWaCustomers();
+    renderBills();
+    renderReports();
+    $('githubStatus').style.display='block';
+    $('githubStatus').textContent='ðŸŸ¢ Data lokal 348 pelanggan aktif.';
+  }catch(e){
+    $('loginMsg').textContent='Gagal membuka data lokal: '+e.message;
+  }
+}
 $('addBtn').addEventListener('click',openAdd);
 $('resetBtn').addEventListener('click',()=>{['q','fWilayah','fStatus','fOdp','fPaket','fMarketing','fKota','fKec','fDesa'].forEach(id=>$(id).value='');render();});
 $('exportBtn').addEventListener('click',exportCsv);
-$('tbody').addEventListener('click',e=>{const b=e.target.closest('.viewBtn');if(b)openDetail(b.dataset.id);});
+$('tbody').addEventListener('click',e=>{const b=e.target.closest('.viewBtn');if(b)openDetail(b.dataset.id);const ed=e.target.closest('.editBtn');if(ed)openAdd(ed.dataset.id);});
 $('closeModal').addEventListener('click',closeModal);
 $('modal').addEventListener('click',e=>{if(e.target===$('modal'))closeModal();});
 
